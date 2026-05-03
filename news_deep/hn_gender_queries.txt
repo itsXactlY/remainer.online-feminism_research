@@ -1,0 +1,66 @@
+=== Query: gender war ===
+  [11pts] Global Gender War | http://blog.dilbert.com/post/133406477506/global-gender-war
+    comments:4 oid:10588698
+  [4pts] Laptop gender wars: What your netbook (or Toughbook) says about you | http://www.itworld.com/hardware/67071/laptop-gender-wars-wha
+    comments:1 oid:586166
+  [3pts] The gender wars of household chores | https://www.theguardian.com/world/2017/may/26/gender-wars-ho
+    comments:0 oid:14426396
+  [2pts] AI campus gender wars ahead | https://hollisrobbinsanecdotal.substack.com/p/the-ai-campus-
+    comments:1 oid:47403253
+  [2pts] AI has come to the gender culture war | https://www.washingtonpost.com/style/power/2024/02/27/ai-gen
+    comments:0 oid:39532691
+---
+=== Query: feminist ===
+  [302pts] Patreon Bars Anti-Feminist for Racist Speech, Inciting Revolt | https://www.nytimes.com/2018/12/24/technology/patreon-hate-s
+    comments:730 oid:18763486
+  [260pts] What Happens to #MeToo When a Feminist Is the Accused? | https://www.nytimes.com/2018/08/13/nyregion/sexual-harassmen
+    comments:272 oid:17758086
+  [149pts] Feminist video-games talk pulled after massacre threat | http://www.bbc.com/news/technology-29626809
+    comments:323 oid:8458865
+  [90pts] Persistent Myths in Feminist Scholarship | http://chronicle.com/free/v55/i40/40sommers.htm
+    comments:44 oid:700758
+  [60pts] Dystopian dreams: on feminist science fiction | http://www.theguardian.com/books/2017/mar/25/dystopian-dream
+    comments:20 oid:13957277
+---
+=== Query: gender equality ===
+  [330pts] The More Gender Equality, the Fewer Women in STEM (2018) | https://www.theatlantic.com/science/archive/2018/02/the-more
+    comments:602 oid:21774299
+  [257pts] Countries with more gender equality have fewer female STEM grads | http://www.thejournal.ie/gender-equality-countries-stem-girl
+    comments:287 oid:16407678
+  [232pts] How Emotional Labor is Dragging Down Gender Equality | http://www.harpersbazaar.com/culture/features/a12063822/emot
+    comments:413 oid:15356760
+  [129pts] The More Gender Equality, the Fewer Women in STEM | https://www.theatlantic.com/science/archive/2018/02/the-more
+    comments:182 oid:16411227
+  [89pts] Push for Gender Equality in Tech? Some Men Say It’s Gone Too Far | https://www.nytimes.com/2017/09/23/technology/silicon-valley
+    comments:112 oid:15321438
+---
+=== Query: me too backlash ===
+  [28pts] The MeToo Backlash | https://hbr.org/2019/09/the-metoo-backlash?
+    comments:3 oid:20835772
+  [2pts] Jaron Lanier on the Valley, the #MeToo Backlash, and Why He Left GOOG for MSFT | https://amp.businessinsider.com/jaron-lanier-interview-on-si
+    comments:0 oid:15978861
+  [1pts] While the MeToo backlash raged on in 2019, the movement notched up big gains | https://edition.cnn.com/2019/12/24/world/metoo-movement-gain
+    comments:0 oid:21873032
+  [31pts] Another Side of MeToo: Male Managers Fearful of Mentoring Women | https://www.nytimes.com/2019/01/27/world/europe/metoo-backla
+    comments:33 oid:19040193
+  [3pts] Americans have become more sceptical about claims of sexual harassment | https://www.economist.com/united-states/2018/10/20/measuring
+    comments:1 oid:18266473
+---
+=== Query: mens rights ===
+  [28pts] Scott Adam's Controversial Deleted Post on Men's Rights | http://tinysprout.tumblr.com/post/3713649989/scott-adams-dil
+    comments:34 oid:2373738
+  [21pts] A Fight for Men’s Rights in California Courts | https://www.nytimes.com/2018/07/13/style/mens-rights-movemen
+    comments:21 oid:17525161
+  [15pts] What I Learned as a Woman at a Men's Rights Conference | http://time.com/2949435/what-i-learned-as-a-woman-at-a-mens-
+    comments:22 oid:7978204
+  [13pts] I'm a What? (Scott Adams explanation to "Men’s Rights" post) | http://dilbert.com/blog/entry/im_a_what/?utm_source=feedburn
+    comments:2 oid:2375720
+  [12pts] Is This Crazy Rumor the Platonic Ideal of the Men’s-Rights Internet? | http://nymag.com/following/2015/11/this-the-perfect-insane-a
+    comments:8 oid:10513294
+---
+=== Query: transgender feminism ===
+  [1pts] Putting the “Transgender Activists versus Feminists” Debate to Rest | https://medium.com/@juliaserano/putting-the-transgender-acti
+    comments:0 oid:23464849
+---
+=== Query: patriarchy theory ===
+---

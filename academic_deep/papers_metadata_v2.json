@@ -1,0 +1,348 @@
+{
+  "metadata_version": "2.1",
+  "search_timestamp": "2026-05-03T22:30:00Z",
+  "task": "Academic excavation - toxic femininity and feminist backlash research",
+  "priority_papers_requested": [
+    "McCann 2020 - Is there anything toxic about femininity",
+    "Yeung 2013 - Anti-feminist backlash (system justification)",
+    "Toxic femininity OpenAlex 50 papers",
+    "Feminist authoritarianism/infighting papers",
+    "arXiv feminist/toxicity NLP papers",
+    "Misandry detection NLP papers"
+  ],
+  "key_papers_found": {
+    "mccann_2020_toxic_femininity": {
+      "title": "Is there anything 'toxic' about femininity? The rigid femininities that keep us locked in",
+      "authors": "McCann",
+      "year": 2020,
+      "doi": "10.1080/19419899.2020.1785534",
+      "source": "Taylor & Francis / Minerva Access University of Melbourne",
+      "citations": 34,
+      "openalex_cited": 43,
+      "pdf_downloaded": true,
+      "pdf_path": "/home/alca/academic_deep/papers/mccann_2020_toxic_femininity.pdf",
+      "abstract": "This paper interrogates the concept of 'toxic femininity', examining how rigid femininity norms constrain women. Argues that rather than femininity being inherently toxic, it is the rigid enforcement of feminine norms that creates harm. Uses feminist theory to unpack how femininity operates as a regulatory mechanism.",
+      "key_argument": "Critiques the concept of 'toxic femininity' arguing that femininity itself is not toxic but the rigid enforcement of feminine norms creates harm. Femininity operates as a regulatory mechanism limiting women's agency and choices."
+    },
+    "problematising_toxic_masculinity_2019": {
+      "title": "Problematising 'Toxic' and 'Healthy' Masculinity for Addressing Gender Inequality",
+      "year": 2019,
+      "doi": "10.1080/08164649.2019.1679021",
+      "citations": 135,
+      "key_argument": "Critically examines the toxic/healthy masculinity binary, problematizing how these categories are constructed and used in gender equality work."
+    },
+    "theorizing_backlash_2002": {
+      "title": "Theorizing Backlash: Philosophical Reflections on the Resistance to Feminism",
+      "year": 2002,
+      "citations": 57,
+      "key_argument": "Philosophical examination of why backlash against feminism occurs, exploring the resistance to feminist movements."
+    },
+    "resistance_backlash_gender_equality_2020": {
+      "title": "Resistance and backlash to gender equality",
+      "year": 2020,
+      "citations": 153,
+      "key_argument": "Systematic examination of resistance and backlash mechanisms against gender equality initiatives."
+    },
+    "gendering_global_conflict_2013": {
+      "title": "Gendering Global Conflict: Toward a Feminist Theory of War",
+      "authors": "Laura Sjoberg",
+      "year": 2013,
+      "citations": 207,
+      "key_argument": "Develops feminist theory of war examining gender's role in global conflict."
+    },
+    "toxic_femininity_2015": {
+      "title": "Toxic femininity 4.0",
+      "year": 2015,
+      "citations": 22,
+      "note": "Early academic use of term 'toxic femininity' in this specific phrase"
+    },
+    "toxic_black_femininity_2020": {
+      "title": "I'm Black, I'm Strong, and I Need Help: Toxic Black Femininity and Intimate Partner Violence",
+      "year": 2020,
+      "citations": 25,
+      "focus": "Toxic femininity in context of Black women's experiences and IPV"
+    }
+  },
+  "toxic_femininity_papers_compiled": [
+    {
+      "title": "Is there anything 'toxic' about femininity? The rigid femininities that keep us locked in",
+      "year": 2020,
+      "citations": 34
+    },
+    {
+      "title": "Toxic femininity 4.0",
+      "year": 2015,
+      "citations": 22
+    },
+    {
+      "title": "I'm Black, I'm Strong, and I Need Help: Toxic Black Femininity and Intimate Partner Violence",
+      "year": 2020,
+      "citations": 25
+    },
+    {
+      "title": "Politics of Girlhood and Toxic Femininity: Internalizing Misogyny and Trauma",
+      "year": 2025,
+      "citations": 0
+    },
+    {
+      "title": "Ain't I a Woman, Too? Depictions of Toxic Femininity, Transmisogynoir, and Violence",
+      "year": 2019,
+      "citations": 2
+    },
+    {
+      "title": "Why Didn't She Walk Away? Silence, Complicity, and the Subtle Force of Toxic Femininity",
+      "year": 2018,
+      "citations": 3
+    },
+    {
+      "title": "Genji's toxic femininity",
+      "year": 2020
+    },
+    {
+      "title": "Classical Reception, Toxic Femininity and Hippomanes in The BEWITCHED GROOM",
+      "year": 2020
+    },
+    {
+      "title": "Abject eroticism and toxic femininity in Hans Baldung Grien",
+      "year": 2019
+    },
+    {
+      "title": "Bitchy ladies: domestic violence against ornatrices in Latin poetry\u2014protest feminism?",
+      "year": 2023
+    },
+    {
+      "title": "Implementasi Bimbingan Klasikal Impact Islami Sebagai Upaya Pencegahan Toxic Fem",
+      "year": 2022
+    }
+  ],
+  "gender_backlash_2024_2025_papers": [
+    {
+      "title": "The Global Rise of Anti-Gender Movements and Feminist Resistance Strategies",
+      "year": 2025
+    },
+    {
+      "title": "Conceptualising Gender Backlash Definitions and Frameworks",
+      "year": 2025
+    },
+    {
+      "title": "Sexual Projects, Sexual Formations, and the Muslim Phantasm: Unpacking the Global Gender Backlash",
+      "year": 2025
+    },
+    {
+      "title": "Exploring Postfeminist Humor as a Collective Form of Resistance to Anti-feminism in China",
+      "year": 2025
+    },
+    {
+      "title": "Jesus and John Wayne Wannabes: How Christian Nationalism and Femininity Shape Ex",
+      "year": 2025
+    },
+    {
+      "title": "Cleansing Fire\u2014Language, Gender, and Tribal Critique in Saudi Feminist Poetry",
+      "year": 2025
+    },
+    {
+      "title": "BACKLASH AGAINST AND RESISTANCE TO FEMINIST PEACEBUILDING",
+      "year": 2023
+    },
+    {
+      "title": "On the Strategic Uses of Women's Rights: Backlash, Rights-based Framing, and Anti-Gender Campaigns in Colombia's 2016 Peace Agreement",
+      "year": 2021,
+      "citations": 68
+    },
+    {
+      "title": "To Be Heard Through The #Metoo Backlash",
+      "year": 2023
+    }
+  ],
+  "arxiv_feminist_papers": [
+    {
+      "title": "Feminist epistemology for machine learning systems design"
+    },
+    {
+      "title": "Epistemic values in feature importance methods: Lessons from feminist epistemology"
+    },
+    {
+      "title": "Toxicity and Cultural Entrenchment in Peer-Production Communities"
+    },
+    {
+      "title": "A longitudinal analysis of misinformation, polarization and toxicity on Bluesky"
+    },
+    {
+      "title": "Feminist Perspective on Robot Learning Processes"
+    },
+    {
+      "title": "Towards Feminist Intersectional XAI: From Explainability to Response-Ability"
+    },
+    {
+      "title": "Black Feminist Musings on Algorithmic Oppression"
+    },
+    {
+      "title": "Algorithmic Fairness and Structural Injustice: Insights from Feminist Political"
+    },
+    {
+      "title": "ToxiFrench: Benchmarking and Enhancing Language Models for French Toxicity Detection"
+    }
+  ],
+  "system_justification_gender_papers": [
+    {
+      "title": "Differences in System Justification with respect to Gender, Political Conservatism, and System Orientation",
+      "year": 2011,
+      "citations": 18
+    },
+    {
+      "title": "System Justification and the Defense of Committed Relationship Ideology",
+      "year": 2011,
+      "citations": 84
+    },
+    {
+      "title": "Playing the Woman Card: Ambivalent Sexism in the 2016 U.S. Presidential Race",
+      "year": 2018,
+      "citations": 235
+    },
+    {
+      "title": "Reconciling Sexism and Women's Support for Republican Candidates: A Look at Gendered Reactions to Sexism",
+      "year": 2018,
+      "citations": 217
+    },
+    {
+      "title": "Neoliberal Ideology and the Justification of Inequality in Capitalist Societies",
+      "year": 2019,
+      "citations": 210
+    }
+  ],
+  "high_citation_gender_masculinity_feminist_theory": [
+    {
+      "title": "Gender and Power: Society, the Person, and Sexual Politics",
+      "year": 1988,
+      "citations": 4239
+    },
+    {
+      "title": "Feminist Theory: From Margin to Center",
+      "year": 1985,
+      "citations": 4467,
+      "author": "bell hooks"
+    },
+    {
+      "title": "Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective",
+      "year": 1988,
+      "citations": 7010,
+      "author": "Donna Haraway"
+    },
+    {
+      "title": "Gender and Power: Society, the Person, and Sexual Politics",
+      "year": 1988,
+      "citations": 4239
+    },
+    {
+      "title": "Postfeminist media culture",
+      "year": 2007,
+      "citations": 2070
+    },
+    {
+      "title": "Orchestrating Impartiality: The Impact of 'Blind' Auditions on Female Musicians",
+      "year": 2000,
+      "citations": 1745
+    },
+    {
+      "title": "Gender as 'Ebola from Brussels': The Anticolonial Frame and the Rise of Illiberal Politics",
+      "year": 2018,
+      "citations": 527
+    },
+    {
+      "title": "masculinities in Cyberspace: An Analysis of Portrayals of Manhood in Men's Rights Groups",
+      "year": 2016,
+      "citations": 165
+    }
+  ],
+  "feminist_psychology_papers": [
+    {
+      "title": "Why Evolutionary Psychology Is Not Feminist",
+      "year": 2024
+    },
+    {
+      "title": "Assessing politicized gender identity: Validating the Feminist Consciousness Scale",
+      "year": 2020
+    },
+    {
+      "title": "What Does the Psychology of Men and Masculinities Offer the Practitioner?",
+      "year": 2018
+    },
+    {
+      "title": "Feminist psychology: A narrative perspective in coaching",
+      "year": 2020
+    },
+    {
+      "title": "Sexism, rape myths and feminist identification explain gender differences",
+      "year": 2018
+    }
+  ],
+  "gender_conflict_papers": [
+    {
+      "title": "Gender Conflict in South Korean Society",
+      "year": 2025
+    },
+    {
+      "title": "Gendering Global Conflict: Toward a Feminist Theory of War",
+      "year": 2013,
+      "citations": 207
+    },
+    {
+      "title": "Systematic Study of Gender, Conflict, and Peace",
+      "year": 2018,
+      "citations": 14
+    }
+  ],
+  "manosphere_masculinity_papers": [
+    {
+      "title": "Masculinities in Cyberspace: An Analysis of Portrayals of Manhood in Men's Rights Groups",
+      "year": 2016,
+      "citations": 165
+    },
+    {
+      "title": "Male Supremacism in the United States",
+      "year": 2022,
+      "citations": 33
+    },
+    {
+      "title": "Forks in the Road of Men's Gender Politics: Men's Rights vs Feminist Allies",
+      "year": 2016,
+      "citations": 129
+    }
+  ],
+  "citation_counts_for_toxic_femininity_research": {
+    "mccann_2020": {
+      "openalex": 43,
+      "scholar_estimated": 34
+    },
+    "toxic_femininity_2015": {
+      "openalex_estimated": 22
+    },
+    "toxic_black_femininity_2020": {
+      "openalex_estimated": 25
+    }
+  },
+  "key_dois_found": [
+    "10.1080/19419899.2020.1785534",
+    "10.1080/08164649.2019.1679021",
+    "10.1177/1363460718794647",
+    "10.1086/696691"
+  ],
+  "files_created": [
+    "/home/alca/academic_deep/papers/mccann.html",
+    "/home/alca/academic_deep/papers/mccann_2020_toxic_femininity.pdf",
+    "/home/alca/academic_deep/papers/mccann_full.html",
+    "/home/alca/academic_deep/papers_metadata_v2.json"
+  ],
+  "api_notes": [
+    "Semantic Scholar API frequently returned empty results for many queries - possible rate limiting or query issues",
+    "OpenAlex API proved more reliable, returned results for gender ideology queries",
+    "arXiv returned limited feminist NLP papers, mostly HCI/feminist AI ethics papers",
+    "Google Scholar scrape blocked at headers stage"
+  ],
+  "research_gaps_identified": [
+    "Limited academic papers specifically addressing 'toxic femininity' as a standalone construct (most papers are 2018-2025)",
+    "System justification theory applied specifically to anti-feminist backlash is underdeveloped (Yeung 2013 not found specifically)",
+    "Misandry detection NLP is a significant research gap with no clear papers found",
+    "Feminist infighting/faction papers are rare in mainstream databases - more likely in grey literature"
+  ]
+}

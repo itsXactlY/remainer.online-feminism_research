@@ -1,0 +1,1934 @@
+{
+  "clusters": [
+    {
+      "candidate_ids": [
+        "fbd4f4874722",
+        "7b59c35adad1",
+        "72e773c765c8",
+        "1125ff8790ee",
+        "8bd1bdbdb039",
+        "473b74334ee5",
+        "e163cbbd9767",
+        "449b765a28b1",
+        "b21360cb9254",
+        "ab6db3b2e54b",
+        "5a9ba96eef00",
+        "9e71da71bee7",
+        "afd08fc47981",
+        "a94839593384",
+        "d189e8f99e4d",
+        "9adfee93ddc0",
+        "285d2011a3c0",
+        "2e9797425dd5",
+        "4b410acd1bf5",
+        "4935c72bbebd"
+      ],
+      "cluster_id": "cluster-de3424dd",
+      "representative_ids": [
+        "fbd4f4874722",
+        "7b59c35adad1",
+        "72e773c765c8"
+      ],
+      "score": 0.1732,
+      "sources": [
+        "arxiv"
+      ],
+      "title": "Academic Theories Quantum Technological",
+      "uncertainty": "single-source"
+    }
+  ],
+  "errors_by_source": {},
+  "generated_at": "2026-05-03T20:51:59.744524+00:00",
+  "items_by_source": {
+    "arxiv": [
+      {
+        "author": "Joost J. Joosten, Albert Visser",
+        "body": "This paper from 2000 is a presentation of a status qu\u00e6stionis at that tiime, to wit of the problem of the interpretability logic of {\\em all}\\/ reasonable arithmetical theories. We present both the arithmetical side and the modal side of the question.",
+        "container": "ArXiv",
+        "date_confidence": "low",
+        "engagement": {
+          "citations": 0
+        },
+        "engagement_score": 0.3,
+        "freshness": 0,
+        "item_id": "21d87aa8541a",
+        "local_rank_score": 0.198,
+        "local_relevance": 0.08,
+        "metadata": {
+          "authors": [
+            "Joost J. Joosten",
+            "Albert Visser"
+          ],
+          "categories": [
+            "math.LO"
+          ]
+        },
+        "published_at": "2020-04-27",
+        "relevance_hint": 0.2,
+        "snippet": "This paper from 2000 is a presentation of a status qu\u00e6stionis at that tiime, to wit of the problem of the interpretability logic of {\\em all}\\/ reasonable arithmetical theories. We present both the ar",
+        "source": "arxiv",
+        "source_quality": 0.88,
+        "title": "The interpretability logic of all reasonable arithmetical theories",
+        "url": "https://arxiv.org/abs/2004.12685v1",
+        "why_relevant": "ArXiv paper: math.LO"
+      },
+      {
+        "author": "Bogdan S. Chlebus, Leszek G\u0105sieniec, Dariusz R. Kowalski",
+        "body": "We consider the Do-All problem, where $p$ cooperating processors need to complete $t$ similar and independent tasks in an adversarial setting. Here we deal with a synchronous message passing system with processors that are subject to crash failures. Efficiency of algorithms in this setting is measured in terms of work complexity (also known as total available processor steps) and communication complexity (total number of point-to-point messages). When work and communication are considered to be ",
+        "container": "ArXiv",
+        "date_confidence": "low",
+        "engagement": {
+          "citations": 0
+        },
+        "engagement_score": 0.3,
+        "freshness": 0,
+        "item_id": "4d5b522ba04f",
+        "local_rank_score": 0.1966,
+        "local_relevance": 0.08,
+        "metadata": {
+          "authors": [
+            "Bogdan S. Chlebus",
+            "Leszek G\u0105sieniec",
+            "Dariusz R. Kowalski",
+            "Alexander A. Schwarzmann"
+          ],
+          "categories": [
+            "cs.DC"
+          ]
+        },
+        "published_at": "2014-09-16",
+        "relevance_hint": 0.2,
+        "snippet": "We consider the Do-All problem, where $p$ cooperating processors need to complete $t$ similar and independent tasks in an adversarial setting. Here we deal with a synchronous message passing system wi",
+        "source": "arxiv",
+        "source_quality": 0.88,
+        "title": "Doing-it-All with Bounded Work and Communication",
+        "url": "https://arxiv.org/abs/1409.4711v3",
+        "why_relevant": "ArXiv paper: cs.DC"
+      },
+      {
+        "author": "Mircea V. Diudea, Aleksandar Ili\u0107",
+        "body": "Design of monomeric unit, by using sequences of map operations, and the growing process in the building of a double-shell multi torus with all-pentagonal faces, is presented. It is shown that the monomer and some small intermediates, as hydrogenated species, have a moderate stability, between adamantane and C60 fullerene, as calculated at the PM3 level of theory. The topology of these high genera structures is described in terms of Omega polynomial as a function of the net parameters. Closed for",
+        "container": "ArXiv",
+        "date_confidence": "low",
+        "engagement": {
+          "citations": 0
+        },
+        "engagement_score": 0.3,
+        "freshness": 0,
+        "item_id": "6430343bef11",
+        "local_rank_score": 0.1957,
+        "local_relevance": 0.08,
+        "metadata": {
+          "authors": [
+            "Mircea V. Diudea",
+            "Aleksandar Ili\u0107"
+          ],
+          "categories": [
+            "math.CO"
+          ]
+        },
+        "published_at": "2011-04-05",
+        "relevance_hint": 0.2,
+        "snippet": "Design of monomeric unit, by using sequences of map operations, and the growing process in the building of a double-shell multi torus with all-pentagonal faces, is presented. It is shown that the mono",
+        "source": "arxiv",
+        "source_quality": 0.88,
+        "title": "All pentagonal face multi tori",
+        "url": "https://arxiv.org/abs/1104.0917v1",
+        "why_relevant": "ArXiv paper: math.CO"
+      },
+      {
+        "author": "Marcel Wild",
+        "body": "An odd cycle cover is a vertex set whose removal makes a graph bipartite. We show that if a $k$-element odd cycle cover of a graph with w vertices is known then all $N$ maximum anticliques (= independent sets) can be generated in time $O(2^k w^3 + N w^2))$. Generating ${\\it all}\\ N'$ anticliques (maximum or not) is easier and works for arbitrary graphs in time $O(N'w^2)$. In fact the use of wildcards allows to compactly generate the anticliques in clusters.",
+        "container": "ArXiv",
+        "date_confidence": "low",
+        "engagement": {
+          "citations": 0
+        },
+        "engagement_score": 0.3,
+        "freshness": 0,
+        "item_id": "5ec7aeee3bcf",
+        "local_rank_score": 0.19510000000000002,
+        "local_relevance": 0.08,
+        "metadata": {
+          "authors": [
+            "Marcel Wild"
+          ],
+          "categories": [
+            "cs.DS",
+            "cs.DM",
+            "cs.MS"
+          ]
+        },
+        "published_at": "2009-01-28",
+        "relevance_hint": 0.2,
+        "snippet": "An odd cycle cover is a vertex set whose removal makes a graph bipartite. We show that if a $k$-element odd cycle cover of a graph with w vertices is known then all $N$ maximum anticliques (= independ",
+        "source": "arxiv",
+        "source_quality": 0.88,
+        "title": "ALLSAT compressed with wildcards: All, or all maximum independent sets",
+        "url": "https://arxiv.org/abs/0901.4417v4",
+        "why_relevant": "ArXiv paper: cs.DS, cs.DM, cs.MS"
+      },
+      {
+        "author": "Jan H Meinke, Ulrich H E Hansmann",
+        "body": "Using a variant of parallel tempering, we study the changes in sampling within a simulation when the all-atom model is coupled to a Go-like potential. We find that the native structure is not the lowest-energy configuration in the all-atom force field. Adding a Go-term deforms the energy landscape in a way that the native configuration becomes the global minimum.",
+        "container": "ArXiv",
+        "date_confidence": "low",
+        "engagement": {
+          "citations": 0
+        },
+        "engagement_score": 0.3,
+        "freshness": 0,
+        "item_id": "06cb2ee7fbef",
+        "local_rank_score": 0.1947,
+        "local_relevance": 0.08,
+        "metadata": {
+          "authors": [
+            "Jan H Meinke",
+            "Ulrich H E Hansmann"
+          ],
+          "categories": [
+            "q-bio.BM",
+            "q-bio.QM"
+          ]
+        },
+        "published_at": "2009-08-04",
+        "relevance_hint": 0.2,
+        "snippet": "Using a variant of parallel tempering, we study the changes in sampling within a simulation when the all-atom model is coupled to a Go-like potential. We find that the native structure is not the lowe",
+        "source": "arxiv",
+        "source_quality": 0.88,
+        "title": "Protein simulations combining an all-atom force field with a Go term",
+        "url": "https://arxiv.org/abs/0908.0419v1",
+        "why_relevant": "ArXiv paper: q-bio.BM, q-bio.QM"
+      },
+      {
+        "author": "Cory J. Kleinheksel, Arun K. Somani",
+        "body": "In this paper we propose and prove that cyclic quorum sets can efficiently manage all-pairs computations and data replication. The quorums are O(N/sqrt(P)) in size, up to 50% smaller than the dual N/sqrt(P) array implementations, and significantly smaller than solutions requiring all data. Implementation evaluation demonstrated scalability on real datasets with a 7x speed up on 8 nodes with 1/3rd the memory usage per process. The all-pairs problem requires all data elements to be paired with all",
+        "container": "ArXiv",
+        "date_confidence": "low",
+        "engagement": {
+          "citations": 0
+        },
+        "engagement_score": 0.3,
+        "freshness": 0,
+        "item_id": "8cc657aba70c",
+        "local_rank_score": 0.19430000000000003,
+        "local_relevance": 0.08,
+        "metadata": {
+          "authors": [
+            "Cory J. Kleinheksel",
+            "Arun K. Somani"
+          ],
+          "categories": [
+            "cs.DC"
+          ]
+        },
+        "published_at": "2016-08-18",
+        "relevance_hint": 0.2,
+        "snippet": "In this paper we propose and prove that cyclic quorum sets can efficiently manage all-pairs computations and data replication. The quorums are O(N/sqrt(P)) in size, up to 50% smaller than the dual N/s",
+        "source": "arxiv",
+        "source_quality": 0.88,
+        "title": "Scaling Distributed All-Pairs Algorithms: Manage Computation and Limit Data Replication with Quorums",
+        "url": "https://arxiv.org/abs/1608.05174v1",
+        "why_relevant": "ArXiv paper: cs.DC"
+      },
+      {
+        "author": "Anuraag Singh, Giorgio Triulzi, Christopher L. Magee",
+        "body": "In this work, we attempt to provide a comprehensive granular account of the pace of technological change. More specifically, we survey estimated yearly performance improvement rates for nearly all definable technologies for the first time. We do this by creating a correspondence of all patents within the US patent system to a set of technology domains. A technology domain is a body of patented inventions achieving the same technological function using the same knowledge and scientific principles",
+        "container": "ArXiv",
+        "date_confidence": "low",
+        "engagement": {
+          "citations": 0
+        },
+        "engagement_score": 0.3,
+        "freshness": 0,
+        "item_id": "c4cb7b8c0bf7",
+        "local_rank_score": 0.19390000000000002,
+        "local_relevance": 0.08,
+        "metadata": {
+          "authors": [
+            "Anuraag Singh",
+            "Giorgio Triulzi",
+            "Christopher L. Magee"
+          ],
+          "categories": [
+            "econ.GN",
+            "cs.CY",
+            "physics.soc-ph",
+            "q-fin.GN",
+            "q-fin.PM"
+          ]
+        },
+        "published_at": "2020-04-29",
+        "relevance_hint": 0.2,
+        "snippet": "In this work, we attempt to provide a comprehensive granular account of the pace of technological change. More specifically, we survey estimated yearly performance improvement rates for nearly all def",
+        "source": "arxiv",
+        "source_quality": 0.88,
+        "title": "Technological improvement rate estimates for all technologies: Use of patent data and an extended domain description",
+        "url": "https://arxiv.org/abs/2004.13919v1",
+        "why_relevant": "ArXiv paper: econ.GN, cs.CY, physics.soc-ph"
+      },
+      {
+        "author": "Kayvan Kousha, Mike Thelwall",
+        "body": "Despite recent evidence that Microsoft Academic is an extensive source of citation counts for journal articles, it is not known if the same is true for academic books. This paper fills this gap by comparing citations to 16,463 books from 2013-2016 in the Book Citation Index (BKCI) against automatically extracted citations from Microsoft Academic and Google Books in 17 fields. About 60% of the BKCI books had records in Microsoft Academic, varying by year and field. Citation counts from Microsoft ",
+        "container": "ArXiv",
+        "date_confidence": "low",
+        "engagement": {
+          "citations": 0
+        },
+        "engagement_score": 0.3,
+        "freshness": 0,
+        "item_id": "621d9e9fc2c6",
+        "local_rank_score": 0.2167,
+        "local_relevance": 0.172,
+        "metadata": {
+          "authors": [
+            "Kayvan Kousha",
+            "Mike Thelwall"
+          ],
+          "categories": [
+            "cs.DL"
+          ]
+        },
+        "published_at": "2018-08-04",
+        "relevance_hint": 0.28,
+        "snippet": "Despite recent evidence that Microsoft Academic is an extensive source of citation counts for journal articles, it is not known if the same is true for academic books. This paper fills this gap by com",
+        "source": "arxiv",
+        "source_quality": 0.88,
+        "title": "Can Microsoft Academic help to assess the citation impact of academic books?",
+        "url": "https://arxiv.org/abs/1808.01474v1",
+        "why_relevant": "ArXiv paper: cs.DL"
+      },
+      {
+        "author": "Wenjun Fan, Zhihui Du, Max Smith-Creasey",
+        "body": "Honeypots are designed to trap the attacker with the purpose of investigating its malicious behavior. Owing to the increasing variety and sophistication of cyber attacks, how to capture high-quality attack data has become a challenge in the context of honeypot area. All-round honeypots, which mean significant improvement in sensibility, countermeasure and stealth, are necessary to tackle the problem. In this paper, we propose a novel honeypot architecture termed HoneyDOC to support all-round hon",
+        "container": "ArXiv",
+        "date_confidence": "low",
+        "engagement": {
+          "citations": 0
+        },
+        "engagement_score": 0.3,
+        "freshness": 0,
+        "item_id": "e80b89ccd5ab",
+        "local_rank_score": 0.1935,
+        "local_relevance": 0.08,
+        "metadata": {
+          "authors": [
+            "Wenjun Fan",
+            "Zhihui Du",
+            "Max Smith-Creasey",
+            "David Fern\u00e1ndez"
+          ],
+          "categories": [
+            "cs.CR",
+            "cs.NI"
+          ]
+        },
+        "published_at": "2024-02-09",
+        "relevance_hint": 0.2,
+        "snippet": "Honeypots are designed to trap the attacker with the purpose of investigating its malicious behavior. Owing to the increasing variety and sophistication of cyber attacks, how to capture high-quality a",
+        "source": "arxiv",
+        "source_quality": 0.88,
+        "title": "HoneyDOC: An Efficient Honeypot Architecture Enabling All-Round Design",
+        "url": "https://arxiv.org/abs/2402.06516v1",
+        "why_relevant": "ArXiv paper: cs.CR, cs.NI"
+      },
+      {
+        "author": "Thao Nguyen, Utkarsh Ojha, Yuheng Li",
+        "body": "In recent years, image editing has advanced remarkably. With increased human control, it is now possible to edit an image in a plethora of ways; from specifying in text what we want to change, to straight up dragging the contents of the image in an interactive point-based manner. However, most of the focus has remained on editing single images at a time. Whether and how we can simultaneously edit large batches of images has remained understudied. With the goal of minimizing human supervision in ",
+        "container": "ArXiv",
+        "date_confidence": "low",
+        "engagement": {
+          "citations": 0
+        },
+        "engagement_score": 0.3,
+        "freshness": 0,
+        "item_id": "84f1f29a3b4d",
+        "local_rank_score": 0.19330000000000003,
+        "local_relevance": 0.08,
+        "metadata": {
+          "authors": [
+            "Thao Nguyen",
+            "Utkarsh Ojha",
+            "Yuheng Li",
+            "Haotian Liu",
+            "Yong Jae Lee"
+          ],
+          "categories": [
+            "cs.CV"
+          ]
+        },
+        "published_at": "2024-01-18",
+        "relevance_hint": 0.2,
+        "snippet": "In recent years, image editing has advanced remarkably. With increased human control, it is now possible to edit an image in a plethora of ways; from specifying in text what we want to change, to stra",
+        "source": "arxiv",
+        "source_quality": 0.88,
+        "title": "Edit One for All: Interactive Batch Image Editing",
+        "url": "https://arxiv.org/abs/2401.10219v1",
+        "why_relevant": "ArXiv paper: cs.CV"
+      },
+      {
+        "author": "Seunghyun Lee, Kyunghoon Lee, Chang-Hua Liu",
+        "body": "In modern communication system, modulation is a key function that embeds the baseband signal (information) into a carrier wave so that it can be successfully broadcasted through a medium such as air or cables. A flexible signal modulation scheme is hence essential to wide range of applications based on flexible electronics. Here we report a fully bendable all-graphene modulator circuit with the capability to encode a carrier signal with quaternary digital information for the first time. By explo",
+        "container": "ArXiv",
+        "date_confidence": "low",
+        "engagement": {
+          "citations": 0
+        },
+        "engagement_score": 0.3,
+        "freshness": 0,
+        "item_id": "a8bbbd6fddf6",
+        "local_rank_score": 0.19310000000000002,
+        "local_relevance": 0.08,
+        "metadata": {
+          "authors": [
+            "Seunghyun Lee",
+            "Kyunghoon Lee",
+            "Chang-Hua Liu",
+            "Girish S. Kulkarni",
+            "Zhaohui Zhong"
+          ],
+          "categories": [
+            "cond-mat.mtrl-sci",
+            "cond-mat.mes-hall",
+            "cond-mat.other"
+          ]
+        },
+        "published_at": "2012-08-23",
+        "relevance_hint": 0.2,
+        "snippet": "In modern communication system, modulation is a key function that embeds the baseband signal (information) into a carrier wave so that it can be successfully broadcasted through a medium such as air o",
+        "source": "arxiv",
+        "source_quality": 0.88,
+        "title": "Flexible and Transparent All-Graphene Circuits for Quaternary Digital Modulations",
+        "url": "https://arxiv.org/abs/1208.4780v1",
+        "why_relevant": "ArXiv paper: cond-mat.mtrl-sci, cond-mat.mes-hall, cond-mat.other"
+      },
+      {
+        "author": "Robert A. Herrmann",
+        "body": "In this paper, the set of all physical theories is represented by a countable subset of the lattice of consequence operators defined on a language L. It is established that there exists a unifying injection U defined on the set of significant representations for natural-systems M. If W is a member of M, then U selects an ultralogic C such that C(*W) restricted to L is a unification for the set of all physical theories as each is applied to W. There also exists a standard injection S that for eac",
+        "container": "ArXiv",
+        "date_confidence": "low",
+        "engagement": {
+          "citations": 0
+        },
+        "engagement_score": 0.3,
+        "freshness": 0,
+        "item_id": "430f06b32fe7",
+        "local_rank_score": 0.19290000000000002,
+        "local_relevance": 0.08,
+        "metadata": {
+          "authors": [
+            "Robert A. Herrmann"
+          ],
+          "categories": [
+            "physics.gen-ph"
+          ]
+        },
+        "published_at": "2001-05-04",
+        "relevance_hint": 0.2,
+        "snippet": "In this paper, the set of all physical theories is represented by a countable subset of the lattice of consequence operators defined on a language L. It is established that there exists a unifying inj",
+        "source": "arxiv",
+        "source_quality": 0.88,
+        "title": "Standard and Hyperfinite Unifications for All Physical Theories",
+        "url": "https://arxiv.org/abs/physics/0105012v12",
+        "why_relevant": "ArXiv paper: physics.gen-ph"
+      },
+      {
+        "author": "Robert Lockhart, Michael Steiner",
+        "body": "Every entangled state can be perturbed, for instance by decoherence, and stay entangled. For a large class of pure entangled states, we show how large the perturbation can be. Our class includes all pure bipartite and all maximally entangled states. For an entangled state, E, the constucted neighborhood of entangled states is the region outside two parallel hyperplanes, which sandwich the set of all separable states. The states for which these neighborhoods are largest are the maximally entangle",
+        "container": "ArXiv",
+        "date_confidence": "low",
+        "engagement": {
+          "citations": 0
+        },
+        "engagement_score": 0.3,
+        "freshness": 0,
+        "item_id": "31e8b0be358a",
+        "local_rank_score": 0.1927,
+        "local_relevance": 0.08,
+        "metadata": {
+          "authors": [
+            "Robert Lockhart",
+            "Michael Steiner"
+          ],
+          "categories": [
+            "quant-ph"
+          ]
+        },
+        "published_at": "2000-09-21",
+        "relevance_hint": 0.2,
+        "snippet": "Every entangled state can be perturbed, for instance by decoherence, and stay entangled. For a large class of pure entangled states, we show how large the perturbation can be. Our class includes all p",
+        "source": "arxiv",
+        "source_quality": 0.88,
+        "title": "Preserving entanglement under decoherence and sandwiching all separable states",
+        "url": "https://arxiv.org/abs/quant-ph/0009090v2",
+        "why_relevant": "ArXiv paper: quant-ph"
+      },
+      {
+        "author": "V Balaswamy, S Arun, G Chayran",
+        "body": "Cascaded Raman fiber lasers have offered a convenient method to obtain scalable, high-power sources at various wavelength regions inaccessible with rare-earth doped fiber lasers. A limitation previously was the reduced efficiency of these lasers. Recently, new architectures have been proposed to enhance efficiency, but this came at the cost of enhanced complexity, requiring an additional low-power, cascaded Raman laser. In this work, we overcome this with a new, all-passive architecture for high",
+        "container": "ArXiv",
+        "date_confidence": "low",
+        "engagement": {
+          "citations": 0
+        },
+        "engagement_score": 0.3,
+        "freshness": 0,
+        "item_id": "b49d3d3a05b5",
+        "local_rank_score": 0.1925,
+        "local_relevance": 0.08,
+        "metadata": {
+          "authors": [
+            "V Balaswamy",
+            "S Arun",
+            "G Chayran",
+            "V R Supradeepa"
+          ],
+          "categories": [
+            "physics.optics"
+          ]
+        },
+        "published_at": "2017-11-27",
+        "relevance_hint": 0.2,
+        "snippet": "Cascaded Raman fiber lasers have offered a convenient method to obtain scalable, high-power sources at various wavelength regions inaccessible with rare-earth doped fiber lasers. A limitation previous",
+        "source": "arxiv",
+        "source_quality": 0.88,
+        "title": "An All Passive Architecture for High Efficiency Cascaded Raman Conversion",
+        "url": "https://arxiv.org/abs/1711.09583v2",
+        "why_relevant": "ArXiv paper: physics.optics"
+      },
+      {
+        "author": "Erel Segal-Halevi",
+        "body": "Competitive equilibrium (CE) is a fundamental concept in market economics. Its efficiency and fairness properties make it particularly appealing as a rule for fair allocation of resources among agents with possibly different entitlements. However, when the resources are indivisible, a CE might not exist even when there is one resource and two agents with equal incomes. Recently, Babaioff and Nisan and Talgam-Cohen (2017) have suggested to consider the entire space of possible incomes, and check ",
+        "container": "ArXiv",
+        "date_confidence": "low",
+        "engagement": {
+          "citations": 0
+        },
+        "engagement_score": 0.3,
+        "freshness": 0,
+        "item_id": "3fa6471f1615",
+        "local_rank_score": 0.19240000000000002,
+        "local_relevance": 0.08,
+        "metadata": {
+          "authors": [
+            "Erel Segal-Halevi"
+          ],
+          "categories": [
+            "cs.GT"
+          ]
+        },
+        "published_at": "2017-05-11",
+        "relevance_hint": 0.2,
+        "snippet": "Competitive equilibrium (CE) is a fundamental concept in market economics. Its efficiency and fairness properties make it particularly appealing as a rule for fair allocation of resources among agents",
+        "source": "arxiv",
+        "source_quality": 0.88,
+        "title": "Competitive Equilibrium For Almost All Incomes: Existence and Fairness",
+        "url": "https://arxiv.org/abs/1705.04212v6",
+        "why_relevant": "ArXiv paper: cs.GT"
+      },
+      {
+        "author": "Salini K., R. Prabhu, Aditi Sen De",
+        "body": "Monogamy of quantum correlation measures puts restrictions on the sharability of quantum correlations in multiparty quantum states. Multiparty quantum states can satisfy or violate monogamy relations with respect to given quantum correlations. We show that all multiparty quantum states can be made monogamous with respect to all measures. More precisely, given any quantum correlation measure that is non-monogamic for a multiparty quantum state, it is always possible to find a monotonically increa",
+        "container": "ArXiv",
+        "date_confidence": "low",
+        "engagement": {
+          "citations": 0
+        },
+        "engagement_score": 0.3,
+        "freshness": 0,
+        "item_id": "048f7d23c79f",
+        "local_rank_score": 0.1922,
+        "local_relevance": 0.08,
+        "metadata": {
+          "authors": [
+            "Salini K.",
+            "R. Prabhu",
+            "Aditi Sen De",
+            "Ujjwal Sen"
+          ],
+          "categories": [
+            "quant-ph"
+          ]
+        },
+        "published_at": "2012-06-18",
+        "relevance_hint": 0.2,
+        "snippet": "Monogamy of quantum correlation measures puts restrictions on the sharability of quantum correlations in multiparty quantum states. Multiparty quantum states can satisfy or violate monogamy relations ",
+        "source": "arxiv",
+        "source_quality": 0.88,
+        "title": "All Multiparty Quantum States Can Be Made Monogamous",
+        "url": "https://arxiv.org/abs/1206.4029v3",
+        "why_relevant": "ArXiv paper: quant-ph"
+      },
+      {
+        "author": "Partha Mukhopadhyay",
+        "body": "We consider tubular neighborhood of an arbitrary submanifold embedded in a (pseudo-)Riemannian manifold. This can be described by Fermi normal coordinates (FNC) satisfying certain conditions as described by Florides and Synge in \\cite{FS}. By generalizing the work of Muller {\\it et al} in \\cite{muller} on Riemann normal coordinate expansion, we derive all order FNC expansion of vielbein in this neighborhood with closed form expressions for the curvature expansion coefficients. Our result is show",
+        "container": "ArXiv",
+        "date_confidence": "low",
+        "engagement": {
+          "citations": 0
+        },
+        "engagement_score": 0.3,
+        "freshness": 0,
+        "item_id": "aab62e7118e8",
+        "local_rank_score": 0.19210000000000002,
+        "local_relevance": 0.08,
+        "metadata": {
+          "authors": [
+            "Partha Mukhopadhyay"
+          ],
+          "categories": [
+            "gr-qc",
+            "hep-th"
+          ]
+        },
+        "published_at": "2012-03-06",
+        "relevance_hint": 0.2,
+        "snippet": "We consider tubular neighborhood of an arbitrary submanifold embedded in a (pseudo-)Riemannian manifold. This can be described by Fermi normal coordinates (FNC) satisfying certain conditions as descri",
+        "source": "arxiv",
+        "source_quality": 0.88,
+        "title": "All order covariant tubular expansion",
+        "url": "https://arxiv.org/abs/1203.1151v5",
+        "why_relevant": "ArXiv paper: gr-qc, hep-th"
+      },
+      {
+        "author": "Xiaodan Zhu, Peter Turney, Daniel Lemire",
+        "body": "The importance of a research article is routinely measured by counting how many times it has been cited. However, treating all citations with equal weight ignores the wide variety of functions that citations perform. We want to automatically identify the subset of references in a bibliography that have a central academic influence on the citing paper. For this purpose, we examine the effectiveness of a variety of features for determining the academic influence of a citation. By asking authors to",
+        "container": "ArXiv",
+        "date_confidence": "low",
+        "engagement": {
+          "citations": 0
+        },
+        "engagement_score": 0.3,
+        "freshness": 0,
+        "item_id": "c7870c8960b0",
+        "local_rank_score": 0.2149,
+        "local_relevance": 0.172,
+        "metadata": {
+          "authors": [
+            "Xiaodan Zhu",
+            "Peter Turney",
+            "Daniel Lemire",
+            "Andr\u00e9 Vellino"
+          ],
+          "categories": [
+            "cs.DL",
+            "cs.CL",
+            "cs.LG"
+          ]
+        },
+        "published_at": "2015-01-26",
+        "relevance_hint": 0.28,
+        "snippet": "The importance of a research article is routinely measured by counting how many times it has been cited. However, treating all citations with equal weight ignores the wide variety of functions that ci",
+        "source": "arxiv",
+        "source_quality": 0.88,
+        "title": "Measuring academic influence: Not all citations are equal",
+        "url": "https://arxiv.org/abs/1501.06587v1",
+        "why_relevant": "ArXiv paper: cs.DL, cs.CL, cs.LG"
+      },
+      {
+        "author": "David Gao",
+        "body": "In this paper, we shall prove that all actions of LERF groups on sets are sofic. As a corollary, we obtain that a large class of generalized wreath products are sofic.",
+        "container": "ArXiv",
+        "date_confidence": "low",
+        "engagement": {
+          "citations": 0
+        },
+        "engagement_score": 0.3,
+        "freshness": 0,
+        "item_id": "d3ec6be6a0dc",
+        "local_rank_score": 0.19190000000000002,
+        "local_relevance": 0.08,
+        "metadata": {
+          "authors": [
+            "David Gao"
+          ],
+          "categories": [
+            "math.GR",
+            "math.OA"
+          ]
+        },
+        "published_at": "2024-02-27",
+        "relevance_hint": 0.2,
+        "snippet": "In this paper, we shall prove that all actions of LERF groups on sets are sofic. As a corollary, we obtain that a large class of generalized wreath products are sofic.",
+        "source": "arxiv",
+        "source_quality": 0.88,
+        "title": "All actions of LERF groups on sets are sofic",
+        "url": "https://arxiv.org/abs/2402.17150v2",
+        "why_relevant": "ArXiv paper: math.GR, math.OA"
+      },
+      {
+        "author": "Alex Jinpeng Wang, Yixiao Ge, Rui Yan",
+        "body": "Mainstream Video-Language Pre-training models \\cite{actbert,clipbert,violet} consist of three parts, a video encoder, a text encoder, and a video-text fusion Transformer. They pursue better performance via utilizing heavier unimodal encoders or multimodal fusion Transformers, resulting in increased parameters with lower efficiency in downstream tasks. In this work, we for the first time introduce an end-to-end video-language model, namely \\textit{all-in-one Transformer}, that embeds raw video an",
+        "container": "ArXiv",
+        "date_confidence": "low",
+        "engagement": {
+          "citations": 0
+        },
+        "engagement_score": 0.3,
+        "freshness": 0,
+        "item_id": "2dc0b25fdca5",
+        "local_rank_score": 0.19180000000000003,
+        "local_relevance": 0.08,
+        "metadata": {
+          "authors": [
+            "Alex Jinpeng Wang",
+            "Yixiao Ge",
+            "Rui Yan",
+            "Yuying Ge",
+            "Xudong Lin",
+            "Guanyu Cai",
+            "Jianping Wu",
+            "Ying Shan",
+            "Xiaohu Qie",
+            "Mike Zheng Shou"
+          ],
+          "categories": [
+            "cs.CV"
+          ]
+        },
+        "published_at": "2022-03-14",
+        "relevance_hint": 0.2,
+        "snippet": "Mainstream Video-Language Pre-training models \\cite{actbert,clipbert,violet} consist of three parts, a video encoder, a text encoder, and a video-text fusion Transformer. They pursue better performanc",
+        "source": "arxiv",
+        "source_quality": 0.88,
+        "title": "All in One: Exploring Unified Video-Language Pre-training",
+        "url": "https://arxiv.org/abs/2203.07303v1",
+        "why_relevant": "ArXiv paper: cs.CV"
+      }
+    ]
+  },
+  "query_plan": {
+    "freshness_mode": "relaxed",
+    "intent": "academic",
+    "notes": [],
+    "raw_topic": "toxic feminism academic papers OR misandry feminism academic research",
+    "source_weights": {
+      "arxiv": 1.4167999999999998,
+      "hackernews": 1.1385,
+      "openalex": 1.3006499999999999,
+      "sem_scholar": 1.2857
+    },
+    "subqueries": [
+      {
+        "label": "primary",
+        "ranking_query": "toxic feminism academic papers OR misandry feminism academic research",
+        "search_query": "toxic feminism academic papers OR misandry feminism academic research",
+        "sources": [
+          "arxiv"
+        ],
+        "weight": 1.0
+      },
+      {
+        "label": "broad",
+        "ranking_query": "toxic feminism academic papers OR misandry feminism academic research",
+        "search_query": "toxic feminism academic papers misandry feminism academic research",
+        "sources": [
+          "reddit",
+          "hackernews",
+          "web"
+        ],
+        "weight": 0.5
+      }
+    ]
+  },
+  "range_from": "2026-04-03",
+  "range_to": "2026-05-03",
+  "ranked_candidates": [
+    {
+      "candidate_id": "fbd4f4874722",
+      "cluster_id": "cluster-de3424dd",
+      "engagement": 0.3,
+      "final_score": 0.02322622950819672,
+      "freshness": 0,
+      "item_id": "21d87aa8541a",
+      "local_relevance": 0.08,
+      "metadata": {},
+      "native_ranks": {
+        "arxiv": 1
+      },
+      "rrf_score": 0.023226,
+      "snippet": "This paper from 2000 is a presentation of a status qu\u00e6stionis at that tiime, to wit of the problem of the interpretability logic of {\\em all}\\/ reasonable arithmetical theories. We present both the ar",
+      "source": "arxiv",
+      "source_items": [
+        {
+          "author": "Joost J. Joosten, Albert Visser",
+          "body": "This paper from 2000 is a presentation of a status qu\u00e6stionis at that tiime, to wit of the problem of the interpretability logic of {\\em all}\\/ reasonable arithmetical theories. We present both the arithmetical side and the modal side of the question.",
+          "container": "ArXiv",
+          "date_confidence": "low",
+          "engagement": {
+            "citations": 0
+          },
+          "engagement_score": 0.3,
+          "freshness": 0,
+          "item_id": "21d87aa8541a",
+          "local_rank_score": 0.198,
+          "local_relevance": 0.08,
+          "metadata": {
+            "authors": [
+              "Joost J. Joosten",
+              "Albert Visser"
+            ],
+            "categories": [
+              "math.LO"
+            ]
+          },
+          "published_at": "2020-04-27",
+          "relevance_hint": 0.2,
+          "snippet": "This paper from 2000 is a presentation of a status qu\u00e6stionis at that tiime, to wit of the problem of the interpretability logic of {\\em all}\\/ reasonable arithmetical theories. We present both the ar",
+          "source": "arxiv",
+          "source_quality": 0.88,
+          "title": "The interpretability logic of all reasonable arithmetical theories",
+          "url": "https://arxiv.org/abs/2004.12685v1",
+          "why_relevant": "ArXiv paper: math.LO"
+        }
+      ],
+      "source_quality": 0.88,
+      "sources": [
+        "arxiv"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "The interpretability logic of all reasonable arithmetical theories",
+      "url": "https://arxiv.org/abs/2004.12685v1"
+    },
+    {
+      "candidate_id": "7b59c35adad1",
+      "cluster_id": "cluster-de3424dd",
+      "engagement": 0.3,
+      "final_score": 0.022851612903225803,
+      "freshness": 0,
+      "item_id": "4d5b522ba04f",
+      "local_relevance": 0.08,
+      "metadata": {},
+      "native_ranks": {
+        "arxiv": 2
+      },
+      "rrf_score": 0.022852,
+      "snippet": "We consider the Do-All problem, where $p$ cooperating processors need to complete $t$ similar and independent tasks in an adversarial setting. Here we deal with a synchronous message passing system wi",
+      "source": "arxiv",
+      "source_items": [
+        {
+          "author": "Bogdan S. Chlebus, Leszek G\u0105sieniec, Dariusz R. Kowalski",
+          "body": "We consider the Do-All problem, where $p$ cooperating processors need to complete $t$ similar and independent tasks in an adversarial setting. Here we deal with a synchronous message passing system with processors that are subject to crash failures. Efficiency of algorithms in this setting is measured in terms of work complexity (also known as total available processor steps) and communication complexity (total number of point-to-point messages). When work and communication are considered to be ",
+          "container": "ArXiv",
+          "date_confidence": "low",
+          "engagement": {
+            "citations": 0
+          },
+          "engagement_score": 0.3,
+          "freshness": 0,
+          "item_id": "4d5b522ba04f",
+          "local_rank_score": 0.1966,
+          "local_relevance": 0.08,
+          "metadata": {
+            "authors": [
+              "Bogdan S. Chlebus",
+              "Leszek G\u0105sieniec",
+              "Dariusz R. Kowalski",
+              "Alexander A. Schwarzmann"
+            ],
+            "categories": [
+              "cs.DC"
+            ]
+          },
+          "published_at": "2014-09-16",
+          "relevance_hint": 0.2,
+          "snippet": "We consider the Do-All problem, where $p$ cooperating processors need to complete $t$ similar and independent tasks in an adversarial setting. Here we deal with a synchronous message passing system wi",
+          "source": "arxiv",
+          "source_quality": 0.88,
+          "title": "Doing-it-All with Bounded Work and Communication",
+          "url": "https://arxiv.org/abs/1409.4711v3",
+          "why_relevant": "ArXiv paper: cs.DC"
+        }
+      ],
+      "source_quality": 0.88,
+      "sources": [
+        "arxiv"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Doing-it-All with Bounded Work and Communication",
+      "url": "https://arxiv.org/abs/1409.4711v3"
+    },
+    {
+      "candidate_id": "72e773c765c8",
+      "cluster_id": "cluster-de3424dd",
+      "engagement": 0.3,
+      "final_score": 0.022488888888888885,
+      "freshness": 0,
+      "item_id": "6430343bef11",
+      "local_relevance": 0.08,
+      "metadata": {},
+      "native_ranks": {
+        "arxiv": 3
+      },
+      "rrf_score": 0.022489,
+      "snippet": "Design of monomeric unit, by using sequences of map operations, and the growing process in the building of a double-shell multi torus with all-pentagonal faces, is presented. It is shown that the mono",
+      "source": "arxiv",
+      "source_items": [
+        {
+          "author": "Mircea V. Diudea, Aleksandar Ili\u0107",
+          "body": "Design of monomeric unit, by using sequences of map operations, and the growing process in the building of a double-shell multi torus with all-pentagonal faces, is presented. It is shown that the monomer and some small intermediates, as hydrogenated species, have a moderate stability, between adamantane and C60 fullerene, as calculated at the PM3 level of theory. The topology of these high genera structures is described in terms of Omega polynomial as a function of the net parameters. Closed for",
+          "container": "ArXiv",
+          "date_confidence": "low",
+          "engagement": {
+            "citations": 0
+          },
+          "engagement_score": 0.3,
+          "freshness": 0,
+          "item_id": "6430343bef11",
+          "local_rank_score": 0.1957,
+          "local_relevance": 0.08,
+          "metadata": {
+            "authors": [
+              "Mircea V. Diudea",
+              "Aleksandar Ili\u0107"
+            ],
+            "categories": [
+              "math.CO"
+            ]
+          },
+          "published_at": "2011-04-05",
+          "relevance_hint": 0.2,
+          "snippet": "Design of monomeric unit, by using sequences of map operations, and the growing process in the building of a double-shell multi torus with all-pentagonal faces, is presented. It is shown that the mono",
+          "source": "arxiv",
+          "source_quality": 0.88,
+          "title": "All pentagonal face multi tori",
+          "url": "https://arxiv.org/abs/1104.0917v1",
+          "why_relevant": "ArXiv paper: math.CO"
+        }
+      ],
+      "source_quality": 0.88,
+      "sources": [
+        "arxiv"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "All pentagonal face multi tori",
+      "url": "https://arxiv.org/abs/1104.0917v1"
+    },
+    {
+      "candidate_id": "1125ff8790ee",
+      "cluster_id": "cluster-de3424dd",
+      "engagement": 0.3,
+      "final_score": 0.022137499999999997,
+      "freshness": 0,
+      "item_id": "5ec7aeee3bcf",
+      "local_relevance": 0.08,
+      "metadata": {},
+      "native_ranks": {
+        "arxiv": 4
+      },
+      "rrf_score": 0.022137,
+      "snippet": "An odd cycle cover is a vertex set whose removal makes a graph bipartite. We show that if a $k$-element odd cycle cover of a graph with w vertices is known then all $N$ maximum anticliques (= independ",
+      "source": "arxiv",
+      "source_items": [
+        {
+          "author": "Marcel Wild",
+          "body": "An odd cycle cover is a vertex set whose removal makes a graph bipartite. We show that if a $k$-element odd cycle cover of a graph with w vertices is known then all $N$ maximum anticliques (= independent sets) can be generated in time $O(2^k w^3 + N w^2))$. Generating ${\\it all}\\ N'$ anticliques (maximum or not) is easier and works for arbitrary graphs in time $O(N'w^2)$. In fact the use of wildcards allows to compactly generate the anticliques in clusters.",
+          "container": "ArXiv",
+          "date_confidence": "low",
+          "engagement": {
+            "citations": 0
+          },
+          "engagement_score": 0.3,
+          "freshness": 0,
+          "item_id": "5ec7aeee3bcf",
+          "local_rank_score": 0.19510000000000002,
+          "local_relevance": 0.08,
+          "metadata": {
+            "authors": [
+              "Marcel Wild"
+            ],
+            "categories": [
+              "cs.DS",
+              "cs.DM",
+              "cs.MS"
+            ]
+          },
+          "published_at": "2009-01-28",
+          "relevance_hint": 0.2,
+          "snippet": "An odd cycle cover is a vertex set whose removal makes a graph bipartite. We show that if a $k$-element odd cycle cover of a graph with w vertices is known then all $N$ maximum anticliques (= independ",
+          "source": "arxiv",
+          "source_quality": 0.88,
+          "title": "ALLSAT compressed with wildcards: All, or all maximum independent sets",
+          "url": "https://arxiv.org/abs/0901.4417v4",
+          "why_relevant": "ArXiv paper: cs.DS, cs.DM, cs.MS"
+        }
+      ],
+      "source_quality": 0.88,
+      "sources": [
+        "arxiv"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "ALLSAT compressed with wildcards: All, or all maximum independent sets",
+      "url": "https://arxiv.org/abs/0901.4417v4"
+    },
+    {
+      "candidate_id": "8bd1bdbdb039",
+      "cluster_id": "cluster-de3424dd",
+      "engagement": 0.3,
+      "final_score": 0.021796923076923075,
+      "freshness": 0,
+      "item_id": "06cb2ee7fbef",
+      "local_relevance": 0.08,
+      "metadata": {},
+      "native_ranks": {
+        "arxiv": 5
+      },
+      "rrf_score": 0.021797,
+      "snippet": "Using a variant of parallel tempering, we study the changes in sampling within a simulation when the all-atom model is coupled to a Go-like potential. We find that the native structure is not the lowe",
+      "source": "arxiv",
+      "source_items": [
+        {
+          "author": "Jan H Meinke, Ulrich H E Hansmann",
+          "body": "Using a variant of parallel tempering, we study the changes in sampling within a simulation when the all-atom model is coupled to a Go-like potential. We find that the native structure is not the lowest-energy configuration in the all-atom force field. Adding a Go-term deforms the energy landscape in a way that the native configuration becomes the global minimum.",
+          "container": "ArXiv",
+          "date_confidence": "low",
+          "engagement": {
+            "citations": 0
+          },
+          "engagement_score": 0.3,
+          "freshness": 0,
+          "item_id": "06cb2ee7fbef",
+          "local_rank_score": 0.1947,
+          "local_relevance": 0.08,
+          "metadata": {
+            "authors": [
+              "Jan H Meinke",
+              "Ulrich H E Hansmann"
+            ],
+            "categories": [
+              "q-bio.BM",
+              "q-bio.QM"
+            ]
+          },
+          "published_at": "2009-08-04",
+          "relevance_hint": 0.2,
+          "snippet": "Using a variant of parallel tempering, we study the changes in sampling within a simulation when the all-atom model is coupled to a Go-like potential. We find that the native structure is not the lowe",
+          "source": "arxiv",
+          "source_quality": 0.88,
+          "title": "Protein simulations combining an all-atom force field with a Go term",
+          "url": "https://arxiv.org/abs/0908.0419v1",
+          "why_relevant": "ArXiv paper: q-bio.BM, q-bio.QM"
+        }
+      ],
+      "source_quality": 0.88,
+      "sources": [
+        "arxiv"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Protein simulations combining an all-atom force field with a Go term",
+      "url": "https://arxiv.org/abs/0908.0419v1"
+    },
+    {
+      "candidate_id": "473b74334ee5",
+      "cluster_id": "cluster-de3424dd",
+      "engagement": 0.3,
+      "final_score": 0.021466666666666665,
+      "freshness": 0,
+      "item_id": "8cc657aba70c",
+      "local_relevance": 0.08,
+      "metadata": {},
+      "native_ranks": {
+        "arxiv": 6
+      },
+      "rrf_score": 0.021467,
+      "snippet": "In this paper we propose and prove that cyclic quorum sets can efficiently manage all-pairs computations and data replication. The quorums are O(N/sqrt(P)) in size, up to 50% smaller than the dual N/s",
+      "source": "arxiv",
+      "source_items": [
+        {
+          "author": "Cory J. Kleinheksel, Arun K. Somani",
+          "body": "In this paper we propose and prove that cyclic quorum sets can efficiently manage all-pairs computations and data replication. The quorums are O(N/sqrt(P)) in size, up to 50% smaller than the dual N/sqrt(P) array implementations, and significantly smaller than solutions requiring all data. Implementation evaluation demonstrated scalability on real datasets with a 7x speed up on 8 nodes with 1/3rd the memory usage per process. The all-pairs problem requires all data elements to be paired with all",
+          "container": "ArXiv",
+          "date_confidence": "low",
+          "engagement": {
+            "citations": 0
+          },
+          "engagement_score": 0.3,
+          "freshness": 0,
+          "item_id": "8cc657aba70c",
+          "local_rank_score": 0.19430000000000003,
+          "local_relevance": 0.08,
+          "metadata": {
+            "authors": [
+              "Cory J. Kleinheksel",
+              "Arun K. Somani"
+            ],
+            "categories": [
+              "cs.DC"
+            ]
+          },
+          "published_at": "2016-08-18",
+          "relevance_hint": 0.2,
+          "snippet": "In this paper we propose and prove that cyclic quorum sets can efficiently manage all-pairs computations and data replication. The quorums are O(N/sqrt(P)) in size, up to 50% smaller than the dual N/s",
+          "source": "arxiv",
+          "source_quality": 0.88,
+          "title": "Scaling Distributed All-Pairs Algorithms: Manage Computation and Limit Data Replication with Quorums",
+          "url": "https://arxiv.org/abs/1608.05174v1",
+          "why_relevant": "ArXiv paper: cs.DC"
+        }
+      ],
+      "source_quality": 0.88,
+      "sources": [
+        "arxiv"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Scaling Distributed All-Pairs Algorithms: Manage Computation and Limit Data Replication with Quorums",
+      "url": "https://arxiv.org/abs/1608.05174v1"
+    },
+    {
+      "candidate_id": "e163cbbd9767",
+      "cluster_id": "cluster-de3424dd",
+      "engagement": 0.3,
+      "final_score": 0.021146268656716417,
+      "freshness": 0,
+      "item_id": "c4cb7b8c0bf7",
+      "local_relevance": 0.08,
+      "metadata": {},
+      "native_ranks": {
+        "arxiv": 7
+      },
+      "rrf_score": 0.021146,
+      "snippet": "In this work, we attempt to provide a comprehensive granular account of the pace of technological change. More specifically, we survey estimated yearly performance improvement rates for nearly all def",
+      "source": "arxiv",
+      "source_items": [
+        {
+          "author": "Anuraag Singh, Giorgio Triulzi, Christopher L. Magee",
+          "body": "In this work, we attempt to provide a comprehensive granular account of the pace of technological change. More specifically, we survey estimated yearly performance improvement rates for nearly all definable technologies for the first time. We do this by creating a correspondence of all patents within the US patent system to a set of technology domains. A technology domain is a body of patented inventions achieving the same technological function using the same knowledge and scientific principles",
+          "container": "ArXiv",
+          "date_confidence": "low",
+          "engagement": {
+            "citations": 0
+          },
+          "engagement_score": 0.3,
+          "freshness": 0,
+          "item_id": "c4cb7b8c0bf7",
+          "local_rank_score": 0.19390000000000002,
+          "local_relevance": 0.08,
+          "metadata": {
+            "authors": [
+              "Anuraag Singh",
+              "Giorgio Triulzi",
+              "Christopher L. Magee"
+            ],
+            "categories": [
+              "econ.GN",
+              "cs.CY",
+              "physics.soc-ph",
+              "q-fin.GN",
+              "q-fin.PM"
+            ]
+          },
+          "published_at": "2020-04-29",
+          "relevance_hint": 0.2,
+          "snippet": "In this work, we attempt to provide a comprehensive granular account of the pace of technological change. More specifically, we survey estimated yearly performance improvement rates for nearly all def",
+          "source": "arxiv",
+          "source_quality": 0.88,
+          "title": "Technological improvement rate estimates for all technologies: Use of patent data and an extended domain description",
+          "url": "https://arxiv.org/abs/2004.13919v1",
+          "why_relevant": "ArXiv paper: econ.GN, cs.CY, physics.soc-ph"
+        }
+      ],
+      "source_quality": 0.88,
+      "sources": [
+        "arxiv"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Technological improvement rate estimates for all technologies: Use of patent data and an extended domain description",
+      "url": "https://arxiv.org/abs/2004.13919v1"
+    },
+    {
+      "candidate_id": "449b765a28b1",
+      "cluster_id": "cluster-de3424dd",
+      "engagement": 0.3,
+      "final_score": 0.020835294117647056,
+      "freshness": 0,
+      "item_id": "621d9e9fc2c6",
+      "local_relevance": 0.172,
+      "metadata": {},
+      "native_ranks": {
+        "arxiv": 8
+      },
+      "rrf_score": 0.020835,
+      "snippet": "Despite recent evidence that Microsoft Academic is an extensive source of citation counts for journal articles, it is not known if the same is true for academic books. This paper fills this gap by com",
+      "source": "arxiv",
+      "source_items": [
+        {
+          "author": "Kayvan Kousha, Mike Thelwall",
+          "body": "Despite recent evidence that Microsoft Academic is an extensive source of citation counts for journal articles, it is not known if the same is true for academic books. This paper fills this gap by comparing citations to 16,463 books from 2013-2016 in the Book Citation Index (BKCI) against automatically extracted citations from Microsoft Academic and Google Books in 17 fields. About 60% of the BKCI books had records in Microsoft Academic, varying by year and field. Citation counts from Microsoft ",
+          "container": "ArXiv",
+          "date_confidence": "low",
+          "engagement": {
+            "citations": 0
+          },
+          "engagement_score": 0.3,
+          "freshness": 0,
+          "item_id": "621d9e9fc2c6",
+          "local_rank_score": 0.2167,
+          "local_relevance": 0.172,
+          "metadata": {
+            "authors": [
+              "Kayvan Kousha",
+              "Mike Thelwall"
+            ],
+            "categories": [
+              "cs.DL"
+            ]
+          },
+          "published_at": "2018-08-04",
+          "relevance_hint": 0.28,
+          "snippet": "Despite recent evidence that Microsoft Academic is an extensive source of citation counts for journal articles, it is not known if the same is true for academic books. This paper fills this gap by com",
+          "source": "arxiv",
+          "source_quality": 0.88,
+          "title": "Can Microsoft Academic help to assess the citation impact of academic books?",
+          "url": "https://arxiv.org/abs/1808.01474v1",
+          "why_relevant": "ArXiv paper: cs.DL"
+        }
+      ],
+      "source_quality": 0.88,
+      "sources": [
+        "arxiv"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Can Microsoft Academic help to assess the citation impact of academic books?",
+      "url": "https://arxiv.org/abs/1808.01474v1"
+    },
+    {
+      "candidate_id": "b21360cb9254",
+      "cluster_id": "cluster-de3424dd",
+      "engagement": 0.3,
+      "final_score": 0.02053333333333333,
+      "freshness": 0,
+      "item_id": "e80b89ccd5ab",
+      "local_relevance": 0.08,
+      "metadata": {},
+      "native_ranks": {
+        "arxiv": 9
+      },
+      "rrf_score": 0.020533,
+      "snippet": "Honeypots are designed to trap the attacker with the purpose of investigating its malicious behavior. Owing to the increasing variety and sophistication of cyber attacks, how to capture high-quality a",
+      "source": "arxiv",
+      "source_items": [
+        {
+          "author": "Wenjun Fan, Zhihui Du, Max Smith-Creasey",
+          "body": "Honeypots are designed to trap the attacker with the purpose of investigating its malicious behavior. Owing to the increasing variety and sophistication of cyber attacks, how to capture high-quality attack data has become a challenge in the context of honeypot area. All-round honeypots, which mean significant improvement in sensibility, countermeasure and stealth, are necessary to tackle the problem. In this paper, we propose a novel honeypot architecture termed HoneyDOC to support all-round hon",
+          "container": "ArXiv",
+          "date_confidence": "low",
+          "engagement": {
+            "citations": 0
+          },
+          "engagement_score": 0.3,
+          "freshness": 0,
+          "item_id": "e80b89ccd5ab",
+          "local_rank_score": 0.1935,
+          "local_relevance": 0.08,
+          "metadata": {
+            "authors": [
+              "Wenjun Fan",
+              "Zhihui Du",
+              "Max Smith-Creasey",
+              "David Fern\u00e1ndez"
+            ],
+            "categories": [
+              "cs.CR",
+              "cs.NI"
+            ]
+          },
+          "published_at": "2024-02-09",
+          "relevance_hint": 0.2,
+          "snippet": "Honeypots are designed to trap the attacker with the purpose of investigating its malicious behavior. Owing to the increasing variety and sophistication of cyber attacks, how to capture high-quality a",
+          "source": "arxiv",
+          "source_quality": 0.88,
+          "title": "HoneyDOC: An Efficient Honeypot Architecture Enabling All-Round Design",
+          "url": "https://arxiv.org/abs/2402.06516v1",
+          "why_relevant": "ArXiv paper: cs.CR, cs.NI"
+        }
+      ],
+      "source_quality": 0.88,
+      "sources": [
+        "arxiv"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "HoneyDOC: An Efficient Honeypot Architecture Enabling All-Round Design",
+      "url": "https://arxiv.org/abs/2402.06516v1"
+    },
+    {
+      "candidate_id": "ab6db3b2e54b",
+      "cluster_id": "cluster-de3424dd",
+      "engagement": 0.3,
+      "final_score": 0.020239999999999998,
+      "freshness": 0,
+      "item_id": "84f1f29a3b4d",
+      "local_relevance": 0.08,
+      "metadata": {},
+      "native_ranks": {
+        "arxiv": 10
+      },
+      "rrf_score": 0.02024,
+      "snippet": "In recent years, image editing has advanced remarkably. With increased human control, it is now possible to edit an image in a plethora of ways; from specifying in text what we want to change, to stra",
+      "source": "arxiv",
+      "source_items": [
+        {
+          "author": "Thao Nguyen, Utkarsh Ojha, Yuheng Li",
+          "body": "In recent years, image editing has advanced remarkably. With increased human control, it is now possible to edit an image in a plethora of ways; from specifying in text what we want to change, to straight up dragging the contents of the image in an interactive point-based manner. However, most of the focus has remained on editing single images at a time. Whether and how we can simultaneously edit large batches of images has remained understudied. With the goal of minimizing human supervision in ",
+          "container": "ArXiv",
+          "date_confidence": "low",
+          "engagement": {
+            "citations": 0
+          },
+          "engagement_score": 0.3,
+          "freshness": 0,
+          "item_id": "84f1f29a3b4d",
+          "local_rank_score": 0.19330000000000003,
+          "local_relevance": 0.08,
+          "metadata": {
+            "authors": [
+              "Thao Nguyen",
+              "Utkarsh Ojha",
+              "Yuheng Li",
+              "Haotian Liu",
+              "Yong Jae Lee"
+            ],
+            "categories": [
+              "cs.CV"
+            ]
+          },
+          "published_at": "2024-01-18",
+          "relevance_hint": 0.2,
+          "snippet": "In recent years, image editing has advanced remarkably. With increased human control, it is now possible to edit an image in a plethora of ways; from specifying in text what we want to change, to stra",
+          "source": "arxiv",
+          "source_quality": 0.88,
+          "title": "Edit One for All: Interactive Batch Image Editing",
+          "url": "https://arxiv.org/abs/2401.10219v1",
+          "why_relevant": "ArXiv paper: cs.CV"
+        }
+      ],
+      "source_quality": 0.88,
+      "sources": [
+        "arxiv"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Edit One for All: Interactive Batch Image Editing",
+      "url": "https://arxiv.org/abs/2401.10219v1"
+    },
+    {
+      "candidate_id": "5a9ba96eef00",
+      "cluster_id": "cluster-de3424dd",
+      "engagement": 0.3,
+      "final_score": 0.019954929577464788,
+      "freshness": 0,
+      "item_id": "a8bbbd6fddf6",
+      "local_relevance": 0.08,
+      "metadata": {},
+      "native_ranks": {
+        "arxiv": 11
+      },
+      "rrf_score": 0.019955,
+      "snippet": "In modern communication system, modulation is a key function that embeds the baseband signal (information) into a carrier wave so that it can be successfully broadcasted through a medium such as air o",
+      "source": "arxiv",
+      "source_items": [
+        {
+          "author": "Seunghyun Lee, Kyunghoon Lee, Chang-Hua Liu",
+          "body": "In modern communication system, modulation is a key function that embeds the baseband signal (information) into a carrier wave so that it can be successfully broadcasted through a medium such as air or cables. A flexible signal modulation scheme is hence essential to wide range of applications based on flexible electronics. Here we report a fully bendable all-graphene modulator circuit with the capability to encode a carrier signal with quaternary digital information for the first time. By explo",
+          "container": "ArXiv",
+          "date_confidence": "low",
+          "engagement": {
+            "citations": 0
+          },
+          "engagement_score": 0.3,
+          "freshness": 0,
+          "item_id": "a8bbbd6fddf6",
+          "local_rank_score": 0.19310000000000002,
+          "local_relevance": 0.08,
+          "metadata": {
+            "authors": [
+              "Seunghyun Lee",
+              "Kyunghoon Lee",
+              "Chang-Hua Liu",
+              "Girish S. Kulkarni",
+              "Zhaohui Zhong"
+            ],
+            "categories": [
+              "cond-mat.mtrl-sci",
+              "cond-mat.mes-hall",
+              "cond-mat.other"
+            ]
+          },
+          "published_at": "2012-08-23",
+          "relevance_hint": 0.2,
+          "snippet": "In modern communication system, modulation is a key function that embeds the baseband signal (information) into a carrier wave so that it can be successfully broadcasted through a medium such as air o",
+          "source": "arxiv",
+          "source_quality": 0.88,
+          "title": "Flexible and Transparent All-Graphene Circuits for Quaternary Digital Modulations",
+          "url": "https://arxiv.org/abs/1208.4780v1",
+          "why_relevant": "ArXiv paper: cond-mat.mtrl-sci, cond-mat.mes-hall, cond-mat.other"
+        }
+      ],
+      "source_quality": 0.88,
+      "sources": [
+        "arxiv"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Flexible and Transparent All-Graphene Circuits for Quaternary Digital Modulations",
+      "url": "https://arxiv.org/abs/1208.4780v1"
+    },
+    {
+      "candidate_id": "9e71da71bee7",
+      "cluster_id": "cluster-de3424dd",
+      "engagement": 0.3,
+      "final_score": 0.019677777777777777,
+      "freshness": 0,
+      "item_id": "430f06b32fe7",
+      "local_relevance": 0.08,
+      "metadata": {},
+      "native_ranks": {
+        "arxiv": 12
+      },
+      "rrf_score": 0.019678,
+      "snippet": "In this paper, the set of all physical theories is represented by a countable subset of the lattice of consequence operators defined on a language L. It is established that there exists a unifying inj",
+      "source": "arxiv",
+      "source_items": [
+        {
+          "author": "Robert A. Herrmann",
+          "body": "In this paper, the set of all physical theories is represented by a countable subset of the lattice of consequence operators defined on a language L. It is established that there exists a unifying injection U defined on the set of significant representations for natural-systems M. If W is a member of M, then U selects an ultralogic C such that C(*W) restricted to L is a unification for the set of all physical theories as each is applied to W. There also exists a standard injection S that for eac",
+          "container": "ArXiv",
+          "date_confidence": "low",
+          "engagement": {
+            "citations": 0
+          },
+          "engagement_score": 0.3,
+          "freshness": 0,
+          "item_id": "430f06b32fe7",
+          "local_rank_score": 0.19290000000000002,
+          "local_relevance": 0.08,
+          "metadata": {
+            "authors": [
+              "Robert A. Herrmann"
+            ],
+            "categories": [
+              "physics.gen-ph"
+            ]
+          },
+          "published_at": "2001-05-04",
+          "relevance_hint": 0.2,
+          "snippet": "In this paper, the set of all physical theories is represented by a countable subset of the lattice of consequence operators defined on a language L. It is established that there exists a unifying inj",
+          "source": "arxiv",
+          "source_quality": 0.88,
+          "title": "Standard and Hyperfinite Unifications for All Physical Theories",
+          "url": "https://arxiv.org/abs/physics/0105012v12",
+          "why_relevant": "ArXiv paper: physics.gen-ph"
+        }
+      ],
+      "source_quality": 0.88,
+      "sources": [
+        "arxiv"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Standard and Hyperfinite Unifications for All Physical Theories",
+      "url": "https://arxiv.org/abs/physics/0105012v12"
+    },
+    {
+      "candidate_id": "afd08fc47981",
+      "cluster_id": "cluster-de3424dd",
+      "engagement": 0.3,
+      "final_score": 0.01940821917808219,
+      "freshness": 0,
+      "item_id": "31e8b0be358a",
+      "local_relevance": 0.08,
+      "metadata": {},
+      "native_ranks": {
+        "arxiv": 13
+      },
+      "rrf_score": 0.019408,
+      "snippet": "Every entangled state can be perturbed, for instance by decoherence, and stay entangled. For a large class of pure entangled states, we show how large the perturbation can be. Our class includes all p",
+      "source": "arxiv",
+      "source_items": [
+        {
+          "author": "Robert Lockhart, Michael Steiner",
+          "body": "Every entangled state can be perturbed, for instance by decoherence, and stay entangled. For a large class of pure entangled states, we show how large the perturbation can be. Our class includes all pure bipartite and all maximally entangled states. For an entangled state, E, the constucted neighborhood of entangled states is the region outside two parallel hyperplanes, which sandwich the set of all separable states. The states for which these neighborhoods are largest are the maximally entangle",
+          "container": "ArXiv",
+          "date_confidence": "low",
+          "engagement": {
+            "citations": 0
+          },
+          "engagement_score": 0.3,
+          "freshness": 0,
+          "item_id": "31e8b0be358a",
+          "local_rank_score": 0.1927,
+          "local_relevance": 0.08,
+          "metadata": {
+            "authors": [
+              "Robert Lockhart",
+              "Michael Steiner"
+            ],
+            "categories": [
+              "quant-ph"
+            ]
+          },
+          "published_at": "2000-09-21",
+          "relevance_hint": 0.2,
+          "snippet": "Every entangled state can be perturbed, for instance by decoherence, and stay entangled. For a large class of pure entangled states, we show how large the perturbation can be. Our class includes all p",
+          "source": "arxiv",
+          "source_quality": 0.88,
+          "title": "Preserving entanglement under decoherence and sandwiching all separable states",
+          "url": "https://arxiv.org/abs/quant-ph/0009090v2",
+          "why_relevant": "ArXiv paper: quant-ph"
+        }
+      ],
+      "source_quality": 0.88,
+      "sources": [
+        "arxiv"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Preserving entanglement under decoherence and sandwiching all separable states",
+      "url": "https://arxiv.org/abs/quant-ph/0009090v2"
+    },
+    {
+      "candidate_id": "a94839593384",
+      "cluster_id": "cluster-de3424dd",
+      "engagement": 0.3,
+      "final_score": 0.019145945945945944,
+      "freshness": 0,
+      "item_id": "b49d3d3a05b5",
+      "local_relevance": 0.08,
+      "metadata": {},
+      "native_ranks": {
+        "arxiv": 14
+      },
+      "rrf_score": 0.019146,
+      "snippet": "Cascaded Raman fiber lasers have offered a convenient method to obtain scalable, high-power sources at various wavelength regions inaccessible with rare-earth doped fiber lasers. A limitation previous",
+      "source": "arxiv",
+      "source_items": [
+        {
+          "author": "V Balaswamy, S Arun, G Chayran",
+          "body": "Cascaded Raman fiber lasers have offered a convenient method to obtain scalable, high-power sources at various wavelength regions inaccessible with rare-earth doped fiber lasers. A limitation previously was the reduced efficiency of these lasers. Recently, new architectures have been proposed to enhance efficiency, but this came at the cost of enhanced complexity, requiring an additional low-power, cascaded Raman laser. In this work, we overcome this with a new, all-passive architecture for high",
+          "container": "ArXiv",
+          "date_confidence": "low",
+          "engagement": {
+            "citations": 0
+          },
+          "engagement_score": 0.3,
+          "freshness": 0,
+          "item_id": "b49d3d3a05b5",
+          "local_rank_score": 0.1925,
+          "local_relevance": 0.08,
+          "metadata": {
+            "authors": [
+              "V Balaswamy",
+              "S Arun",
+              "G Chayran",
+              "V R Supradeepa"
+            ],
+            "categories": [
+              "physics.optics"
+            ]
+          },
+          "published_at": "2017-11-27",
+          "relevance_hint": 0.2,
+          "snippet": "Cascaded Raman fiber lasers have offered a convenient method to obtain scalable, high-power sources at various wavelength regions inaccessible with rare-earth doped fiber lasers. A limitation previous",
+          "source": "arxiv",
+          "source_quality": 0.88,
+          "title": "An All Passive Architecture for High Efficiency Cascaded Raman Conversion",
+          "url": "https://arxiv.org/abs/1711.09583v2",
+          "why_relevant": "ArXiv paper: physics.optics"
+        }
+      ],
+      "source_quality": 0.88,
+      "sources": [
+        "arxiv"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "An All Passive Architecture for High Efficiency Cascaded Raman Conversion",
+      "url": "https://arxiv.org/abs/1711.09583v2"
+    },
+    {
+      "candidate_id": "d189e8f99e4d",
+      "cluster_id": "cluster-de3424dd",
+      "engagement": 0.3,
+      "final_score": 0.018890666666666663,
+      "freshness": 0,
+      "item_id": "3fa6471f1615",
+      "local_relevance": 0.08,
+      "metadata": {},
+      "native_ranks": {
+        "arxiv": 15
+      },
+      "rrf_score": 0.018891,
+      "snippet": "Competitive equilibrium (CE) is a fundamental concept in market economics. Its efficiency and fairness properties make it particularly appealing as a rule for fair allocation of resources among agents",
+      "source": "arxiv",
+      "source_items": [
+        {
+          "author": "Erel Segal-Halevi",
+          "body": "Competitive equilibrium (CE) is a fundamental concept in market economics. Its efficiency and fairness properties make it particularly appealing as a rule for fair allocation of resources among agents with possibly different entitlements. However, when the resources are indivisible, a CE might not exist even when there is one resource and two agents with equal incomes. Recently, Babaioff and Nisan and Talgam-Cohen (2017) have suggested to consider the entire space of possible incomes, and check ",
+          "container": "ArXiv",
+          "date_confidence": "low",
+          "engagement": {
+            "citations": 0
+          },
+          "engagement_score": 0.3,
+          "freshness": 0,
+          "item_id": "3fa6471f1615",
+          "local_rank_score": 0.19240000000000002,
+          "local_relevance": 0.08,
+          "metadata": {
+            "authors": [
+              "Erel Segal-Halevi"
+            ],
+            "categories": [
+              "cs.GT"
+            ]
+          },
+          "published_at": "2017-05-11",
+          "relevance_hint": 0.2,
+          "snippet": "Competitive equilibrium (CE) is a fundamental concept in market economics. Its efficiency and fairness properties make it particularly appealing as a rule for fair allocation of resources among agents",
+          "source": "arxiv",
+          "source_quality": 0.88,
+          "title": "Competitive Equilibrium For Almost All Incomes: Existence and Fairness",
+          "url": "https://arxiv.org/abs/1705.04212v6",
+          "why_relevant": "ArXiv paper: cs.GT"
+        }
+      ],
+      "source_quality": 0.88,
+      "sources": [
+        "arxiv"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Competitive Equilibrium For Almost All Incomes: Existence and Fairness",
+      "url": "https://arxiv.org/abs/1705.04212v6"
+    },
+    {
+      "candidate_id": "9adfee93ddc0",
+      "cluster_id": "cluster-de3424dd",
+      "engagement": 0.3,
+      "final_score": 0.018642105263157894,
+      "freshness": 0,
+      "item_id": "048f7d23c79f",
+      "local_relevance": 0.08,
+      "metadata": {},
+      "native_ranks": {
+        "arxiv": 16
+      },
+      "rrf_score": 0.018642,
+      "snippet": "Monogamy of quantum correlation measures puts restrictions on the sharability of quantum correlations in multiparty quantum states. Multiparty quantum states can satisfy or violate monogamy relations ",
+      "source": "arxiv",
+      "source_items": [
+        {
+          "author": "Salini K., R. Prabhu, Aditi Sen De",
+          "body": "Monogamy of quantum correlation measures puts restrictions on the sharability of quantum correlations in multiparty quantum states. Multiparty quantum states can satisfy or violate monogamy relations with respect to given quantum correlations. We show that all multiparty quantum states can be made monogamous with respect to all measures. More precisely, given any quantum correlation measure that is non-monogamic for a multiparty quantum state, it is always possible to find a monotonically increa",
+          "container": "ArXiv",
+          "date_confidence": "low",
+          "engagement": {
+            "citations": 0
+          },
+          "engagement_score": 0.3,
+          "freshness": 0,
+          "item_id": "048f7d23c79f",
+          "local_rank_score": 0.1922,
+          "local_relevance": 0.08,
+          "metadata": {
+            "authors": [
+              "Salini K.",
+              "R. Prabhu",
+              "Aditi Sen De",
+              "Ujjwal Sen"
+            ],
+            "categories": [
+              "quant-ph"
+            ]
+          },
+          "published_at": "2012-06-18",
+          "relevance_hint": 0.2,
+          "snippet": "Monogamy of quantum correlation measures puts restrictions on the sharability of quantum correlations in multiparty quantum states. Multiparty quantum states can satisfy or violate monogamy relations ",
+          "source": "arxiv",
+          "source_quality": 0.88,
+          "title": "All Multiparty Quantum States Can Be Made Monogamous",
+          "url": "https://arxiv.org/abs/1206.4029v3",
+          "why_relevant": "ArXiv paper: quant-ph"
+        }
+      ],
+      "source_quality": 0.88,
+      "sources": [
+        "arxiv"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "All Multiparty Quantum States Can Be Made Monogamous",
+      "url": "https://arxiv.org/abs/1206.4029v3"
+    },
+    {
+      "candidate_id": "285d2011a3c0",
+      "cluster_id": "cluster-de3424dd",
+      "engagement": 0.3,
+      "final_score": 0.018399999999999996,
+      "freshness": 0,
+      "item_id": "aab62e7118e8",
+      "local_relevance": 0.08,
+      "metadata": {},
+      "native_ranks": {
+        "arxiv": 17
+      },
+      "rrf_score": 0.0184,
+      "snippet": "We consider tubular neighborhood of an arbitrary submanifold embedded in a (pseudo-)Riemannian manifold. This can be described by Fermi normal coordinates (FNC) satisfying certain conditions as descri",
+      "source": "arxiv",
+      "source_items": [
+        {
+          "author": "Partha Mukhopadhyay",
+          "body": "We consider tubular neighborhood of an arbitrary submanifold embedded in a (pseudo-)Riemannian manifold. This can be described by Fermi normal coordinates (FNC) satisfying certain conditions as described by Florides and Synge in \\cite{FS}. By generalizing the work of Muller {\\it et al} in \\cite{muller} on Riemann normal coordinate expansion, we derive all order FNC expansion of vielbein in this neighborhood with closed form expressions for the curvature expansion coefficients. Our result is show",
+          "container": "ArXiv",
+          "date_confidence": "low",
+          "engagement": {
+            "citations": 0
+          },
+          "engagement_score": 0.3,
+          "freshness": 0,
+          "item_id": "aab62e7118e8",
+          "local_rank_score": 0.19210000000000002,
+          "local_relevance": 0.08,
+          "metadata": {
+            "authors": [
+              "Partha Mukhopadhyay"
+            ],
+            "categories": [
+              "gr-qc",
+              "hep-th"
+            ]
+          },
+          "published_at": "2012-03-06",
+          "relevance_hint": 0.2,
+          "snippet": "We consider tubular neighborhood of an arbitrary submanifold embedded in a (pseudo-)Riemannian manifold. This can be described by Fermi normal coordinates (FNC) satisfying certain conditions as descri",
+          "source": "arxiv",
+          "source_quality": 0.88,
+          "title": "All order covariant tubular expansion",
+          "url": "https://arxiv.org/abs/1203.1151v5",
+          "why_relevant": "ArXiv paper: gr-qc, hep-th"
+        }
+      ],
+      "source_quality": 0.88,
+      "sources": [
+        "arxiv"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "All order covariant tubular expansion",
+      "url": "https://arxiv.org/abs/1203.1151v5"
+    },
+    {
+      "candidate_id": "2e9797425dd5",
+      "cluster_id": "cluster-de3424dd",
+      "engagement": 0.3,
+      "final_score": 0.01816410256410256,
+      "freshness": 0,
+      "item_id": "c7870c8960b0",
+      "local_relevance": 0.172,
+      "metadata": {},
+      "native_ranks": {
+        "arxiv": 18
+      },
+      "rrf_score": 0.018164,
+      "snippet": "The importance of a research article is routinely measured by counting how many times it has been cited. However, treating all citations with equal weight ignores the wide variety of functions that ci",
+      "source": "arxiv",
+      "source_items": [
+        {
+          "author": "Xiaodan Zhu, Peter Turney, Daniel Lemire",
+          "body": "The importance of a research article is routinely measured by counting how many times it has been cited. However, treating all citations with equal weight ignores the wide variety of functions that citations perform. We want to automatically identify the subset of references in a bibliography that have a central academic influence on the citing paper. For this purpose, we examine the effectiveness of a variety of features for determining the academic influence of a citation. By asking authors to",
+          "container": "ArXiv",
+          "date_confidence": "low",
+          "engagement": {
+            "citations": 0
+          },
+          "engagement_score": 0.3,
+          "freshness": 0,
+          "item_id": "c7870c8960b0",
+          "local_rank_score": 0.2149,
+          "local_relevance": 0.172,
+          "metadata": {
+            "authors": [
+              "Xiaodan Zhu",
+              "Peter Turney",
+              "Daniel Lemire",
+              "Andr\u00e9 Vellino"
+            ],
+            "categories": [
+              "cs.DL",
+              "cs.CL",
+              "cs.LG"
+            ]
+          },
+          "published_at": "2015-01-26",
+          "relevance_hint": 0.28,
+          "snippet": "The importance of a research article is routinely measured by counting how many times it has been cited. However, treating all citations with equal weight ignores the wide variety of functions that ci",
+          "source": "arxiv",
+          "source_quality": 0.88,
+          "title": "Measuring academic influence: Not all citations are equal",
+          "url": "https://arxiv.org/abs/1501.06587v1",
+          "why_relevant": "ArXiv paper: cs.DL, cs.CL, cs.LG"
+        }
+      ],
+      "source_quality": 0.88,
+      "sources": [
+        "arxiv"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "Measuring academic influence: Not all citations are equal",
+      "url": "https://arxiv.org/abs/1501.06587v1"
+    },
+    {
+      "candidate_id": "4b410acd1bf5",
+      "cluster_id": "cluster-de3424dd",
+      "engagement": 0.3,
+      "final_score": 0.017934177215189872,
+      "freshness": 0,
+      "item_id": "d3ec6be6a0dc",
+      "local_relevance": 0.08,
+      "metadata": {},
+      "native_ranks": {
+        "arxiv": 19
+      },
+      "rrf_score": 0.017934,
+      "snippet": "In this paper, we shall prove that all actions of LERF groups on sets are sofic. As a corollary, we obtain that a large class of generalized wreath products are sofic.",
+      "source": "arxiv",
+      "source_items": [
+        {
+          "author": "David Gao",
+          "body": "In this paper, we shall prove that all actions of LERF groups on sets are sofic. As a corollary, we obtain that a large class of generalized wreath products are sofic.",
+          "container": "ArXiv",
+          "date_confidence": "low",
+          "engagement": {
+            "citations": 0
+          },
+          "engagement_score": 0.3,
+          "freshness": 0,
+          "item_id": "d3ec6be6a0dc",
+          "local_rank_score": 0.19190000000000002,
+          "local_relevance": 0.08,
+          "metadata": {
+            "authors": [
+              "David Gao"
+            ],
+            "categories": [
+              "math.GR",
+              "math.OA"
+            ]
+          },
+          "published_at": "2024-02-27",
+          "relevance_hint": 0.2,
+          "snippet": "In this paper, we shall prove that all actions of LERF groups on sets are sofic. As a corollary, we obtain that a large class of generalized wreath products are sofic.",
+          "source": "arxiv",
+          "source_quality": 0.88,
+          "title": "All actions of LERF groups on sets are sofic",
+          "url": "https://arxiv.org/abs/2402.17150v2",
+          "why_relevant": "ArXiv paper: math.GR, math.OA"
+        }
+      ],
+      "source_quality": 0.88,
+      "sources": [
+        "arxiv"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "All actions of LERF groups on sets are sofic",
+      "url": "https://arxiv.org/abs/2402.17150v2"
+    },
+    {
+      "candidate_id": "4935c72bbebd",
+      "cluster_id": "cluster-de3424dd",
+      "engagement": 0.3,
+      "final_score": 0.017709999999999997,
+      "freshness": 0,
+      "item_id": "2dc0b25fdca5",
+      "local_relevance": 0.08,
+      "metadata": {},
+      "native_ranks": {
+        "arxiv": 20
+      },
+      "rrf_score": 0.01771,
+      "snippet": "Mainstream Video-Language Pre-training models \\cite{actbert,clipbert,violet} consist of three parts, a video encoder, a text encoder, and a video-text fusion Transformer. They pursue better performanc",
+      "source": "arxiv",
+      "source_items": [
+        {
+          "author": "Alex Jinpeng Wang, Yixiao Ge, Rui Yan",
+          "body": "Mainstream Video-Language Pre-training models \\cite{actbert,clipbert,violet} consist of three parts, a video encoder, a text encoder, and a video-text fusion Transformer. They pursue better performance via utilizing heavier unimodal encoders or multimodal fusion Transformers, resulting in increased parameters with lower efficiency in downstream tasks. In this work, we for the first time introduce an end-to-end video-language model, namely \\textit{all-in-one Transformer}, that embeds raw video an",
+          "container": "ArXiv",
+          "date_confidence": "low",
+          "engagement": {
+            "citations": 0
+          },
+          "engagement_score": 0.3,
+          "freshness": 0,
+          "item_id": "2dc0b25fdca5",
+          "local_rank_score": 0.19180000000000003,
+          "local_relevance": 0.08,
+          "metadata": {
+            "authors": [
+              "Alex Jinpeng Wang",
+              "Yixiao Ge",
+              "Rui Yan",
+              "Yuying Ge",
+              "Xudong Lin",
+              "Guanyu Cai",
+              "Jianping Wu",
+              "Ying Shan",
+              "Xiaohu Qie",
+              "Mike Zheng Shou"
+            ],
+            "categories": [
+              "cs.CV"
+            ]
+          },
+          "published_at": "2022-03-14",
+          "relevance_hint": 0.2,
+          "snippet": "Mainstream Video-Language Pre-training models \\cite{actbert,clipbert,violet} consist of three parts, a video encoder, a text encoder, and a video-text fusion Transformer. They pursue better performanc",
+          "source": "arxiv",
+          "source_quality": 0.88,
+          "title": "All in One: Exploring Unified Video-Language Pre-training",
+          "url": "https://arxiv.org/abs/2203.07303v1",
+          "why_relevant": "ArXiv paper: cs.CV"
+        }
+      ],
+      "source_quality": 0.88,
+      "sources": [
+        "arxiv"
+      ],
+      "subquery_labels": [
+        "primary"
+      ],
+      "title": "All in One: Exploring Unified Video-Language Pre-training",
+      "url": "https://arxiv.org/abs/2203.07303v1"
+    }
+  ],
+  "topic": "toxic feminism academic papers OR misandry feminism academic research",
+  "warnings": []
+}

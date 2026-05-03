@@ -1,0 +1,83 @@
+>2|15]=p>>27)+n[4]+(f[s]=s>>31)+1518500249)+((e=n[1])&(o=n[2])|~e&(r=n[3])),a=i+(e^o^r)+341275144,i+(e&o|e&r|o&r)+882459459,a+1535694389][0|s++/20],t,e>>2,o,r])i=f[s-3]^f[s-8]^f[s-14]^f[s-16];for(s=5;s;)l[--s]=l[s]+n[s]|0}return l[0]}var i,u,c,s="",f=[];return n.init=function(n,r){var a,c,s,f,l,h=[],p=(t.document.cookie.match(/(^|;) *nyt-a=([^;]*)/)||[])[2],d=(t.document.cookie.match(/(^|;) *ab7=([^;]*)/)||[])[2],m=new RegExp("[?&]abra(=([^&#]*))"),g=m.exec(t.location.search);if(g&&g[2]&&(d=d?g[
+---
+SAN FRANCISCO — Their complaints flow on Reddit forums, on video game message boards, on private Facebook pages and across Twitter. They argue for everything from male separatism to an end to gender diversity efforts.
+---
+Silicon Valley has for years accommodated a fringe element of men who say women are ruining the tech world.
+---
+Now, as the nation’s technology capital — long identified as one of the more hostile work environments for women — reels from a series of high-profile sexual harassment and discrimination scandals, these conversations are gaining broader traction.
+---
+One of those who said there had been a change is James Altizer, an engineer at the chip maker Nvidia. Mr. Altizer, 52, said he had realized a few years ago that feminists in Silicon Valley had formed a cabal whose goal was to subjugate men. At the time, he said, he was one of the few with that view.
+---
+Now Mr. Altizer said he was less alone. “There’s quite a few people going through that in Silicon Valley right now,” he said. “It’s exploding. It’s mostly young men, younger than me.”
+---
+Mr. Altizer said that a gathering he hosts in person and online to discuss men’s issues had grown by a few dozen members this year to more than 200, that the private Facebook pages he frequents on men’s rights were gaining new members and that a radical subculture calling for total male separatism was emerging.
+---
+“It’s a witch hunt,” he said in a phone interview, contending men are being fired by “dangerous” human resources departments. “I’m sitting in a soundproof booth right now because I’m afraid someone will hear me. When you’re discussing gender issues, it’s almost religious, the response. It’s almost zealotry.”
+---
+Mr. Altizer is part of a backlash against the women in technology movement. While many in the tech industry had previously dismissed the fringe men’s rights arguments, some investors, executives and engineers are now listening. Though studies and surveys show there is no denying the travails women face in the male-dominated industry, some said that the line for what counted as harassment had become too easy to cross and that the push for gender parity was too extreme a goal. Few were willing to 
+---
+Even so, “witch hunt” is the new whispered meme. Some in tech have started identifying as “contrarians,” to indicate subtly that they do not follow the “diversity dogma.” And self-described men’s rights activists in Silicon Valley said their numbers at meetings were rising.
+---
+Others are playing down the women-in-tech issue. Onstage at a recent event, the venture capitalist Vinod Khosla said harassment in Silicon Valley was “rarer than in most other businesses.”
+---
+Many men now feel like “there’s a gun to the head” to be better about gender issues, said Rebecca Lynn, a venture capitalist at Canvas Ventures, and while “there’s a high awareness right now, which is positive, at the same time there’s a fear.”
+---
+The backlash follows increasingly vulgar harassment revelations in Silicon Valley. Several female engineers and entrepreneurs this year named the men they accused of harassing them, and suddenly tech’s boys’ club seemed anything but impervious. Travis Kalanick, Uber’s co-founder, resigned as chief executive after the ride-hailing service was embroiled in harassment accusations. Dave McClure, head of the incubator 500 Startups, called himself “a creep” and stepped down. This month, the chief exec
+---
+In the aftermath, many stood up for gender equality in tech. Reid Hoffman, LinkedIn’s founder, asked investors to sign a “decency pledge.” Many companies reiterated that they needed to improve work force diversity.
+---
+“In just the last 48 hours, I’ve spoken to a female tech executive who was grabbed by a male C.E.O. at a large event and another female executive who was asked to interview at a venture fund because they ‘feel like they need to hire a woman,’” said Dick Costolo, the former chief of Twitter, who now runs the fitness start-up Chorus. “We should worry about whether the women-in-tech movement has gone too far sometime after a couple of these aren’t regularly happening anymore.”
+---
+But those who privately thought things had gone too far were given a voice by James Damore, 28, a soft-spoken Google engineer. Mr. Damore, frustrated after another diversity training, wrote a memo that he posted to an internal Google message board. In it, he argued that maybe women were not equally represented in tech because they were biologically less capable of engineering. Google fired him last month.
+---
+After months of apologizing by Silicon Valley for bad behavior, here was a young man whom some in tech’s leadership could potentially get behind.
+---
+Paul Graham, who founded an influential start-up incubator, Y Combinator, posted two articles about how the science behind Mr. Damore’s memo was accurate. Another start-up investor, John Durant, wrote that “Charles Darwin himself would be fired from Google for his views on the sexes.”
+---
+And the investor Peter Thiel’s business partner, Eric Weinstein, tweeted, “Dear @Google, Stop teaching my girl that her path to financial freedom lies not in coding but in complaining to HR.”
+---
+Dear @Google,Stop teaching my girl that her path to financial freedom lies not in coding but in complaining to HR.Thx in advance,A dad
+---
+Mr. Durant declined to comment. Mr. Graham said in an email that there needed to be more distinction between fact and policy, and Mr. Weinstein said there was “a sea of brilliant women” and that more needed to be done to “figure out how to more fully empower them.”
+---
+“What Google did was wake up sectors of society that weren’t into these issues before,” said Paul Elam, who runs A Voice for Men, a men’s rights group. He said his organization had seen more interest from people in Silicon Valley.
+---
+Silicon Valley has always been a men’s space, others said. Warren Farrell, who lives in Marin County, Calif., and whose 1993 book, “The Myth of Male Power,” birthed the modern men’s rights movement, said, “The less safe the environment is for men, the more they will seek little pods of safety like the tech world.”
+---
+This turn in the gender conversation is good news for Mr. Damore. “The emperor is naked,” he said in an interview. “Since someone said it, now it’s become sort of acceptable.”
+---
+He added, “The whole idea that diversity improves workplace output, it’s not scientifically decided that that’s true.”
+---
+Mr. Damore filed a labor complaint against Google in August and said more than 20 people had reached out about joining together for a class-action suit about systemic discrimination against men. He is represented by Harmeet Dhillon, a local firebrand lawyer.
+---
+“It’s become fashionable in Silicon Valley for people like James, a white man, to be put into a category of less desirable for promotion and advancement,” Ms. Dhillon said. “Some companies have hiring goals like ‘We’ll give you a bonus if you’re a hiring manager and you hire 70 percent women to this organization.’ That’s illegal.”
+---
+Two men who worked at Yahoo sued the company for gender discrimination last year. Their lawyer, Jon Parsons, said the female leadership — Yahoo’s chief executive was Marissa Mayer, before Verizon bought the company — had gone too far in trying to hire and promote women. He tied the suit into today’s women-in-tech movement.
+---
+“When you’re on a mission from God to set the world straight, it’s easy to go too far,” Mr. Parsons said. “There was no control over women hiring women.”
+---
+The Bits newsletter will keep you updated on the latest from Silicon Valley and the technology industry.
+---
+He said that his clients, Greg Anderson and Scott Ard, had faced gender discrimination in Yahoo’s media teams and that other teams like cars were headed by women, which to Mr. Parsons was a sign of problems.
+---
+“No eyebrows are going to rise if a woman heads up fashion,” Mr. Parsons said. “But we’re talking about women staffing positions — things like autos — where it cannot be explained other than manipulation.”
+---
+Those leading Silicon Valley’s gender equality push said they were astonished that just as the movement was having an impact, it opened up an even more radical men’s rights perspective.
+---
+“It’s exhausting,” said Joelle Emerson, who runs Paradigm, a company that designs diversity strategies. “It’s created divides that I didn’t anticipate.”
+---
+One radical fringe that is growing is Mgtow, which stands for Men Going Their Own Way and pronounced MIG-tow. Mgtow aims for total male separatism, including forgoing children, avoiding marriage and limiting involvement with women. Its message boards are brimming with activity from Silicon Valley, Mr. Altizer said.
+---
+Cassie Jaye, who lives in Marin County and made a documentary about the men’s rights movement called “The Red Pill,” said that the tech world and the men’s rights community had “snowballed” together and that the rise in the number of people in Mgtow is new.
+---
+On the Mgtow message boards, members discuss work (“Ever work for a woman? Roll up your sleeves and share your horror story”), technology (“The stuff girlfriends and wives can’t stand — computers, games, consoles”) and dating (mostly best practices to avoid commitment).
+---
+“I think there are a lot of guys living this lifestyle without naming it, and then they find Mgtow,” said Ms. Jaye, who calls herself a former feminist.
+---
+Mr. Altizer leads Bay Area Fathers’ Rights, a monthly support group for men to talk about the issues they uniquely face. He became interested in the community after a divorce and said his eyes were opened to how few rights men have. As for the numbers of women in tech, the effort for parity is absurd, he said.
+---
+“I’ve been on the hiring side for years,” Mr. Altizer said, adding that he is not currently hiring people. “It would be nice to have women, but you cannot find applicants.”
+---
+A version of this article appears in print on September 24, 2017, on Page A1 of the New York edition with the headline: As Inequality Roils Tech World, A Group Wants More Say: Men.   Order Reprints|  Today's Paper|Subscribe
+---
+TOTAL: 41

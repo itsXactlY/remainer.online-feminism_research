@@ -1,0 +1,387 @@
+{
+  "platforms_data": {
+    "lemmy": {
+      "status": "blocked_or_empty",
+      "instances_tried": [
+        "lemmy.ml",
+        "beehaw.org",
+        "lemdro.id",
+        "sh.itmo.tech",
+        "sopuli.xyz",
+        "lemmy.db0.net",
+        "lemmy.world",
+        "vlemmy.net"
+      ],
+      "api_versions_tried": [
+        "v3/search",
+        "api/search"
+      ],
+      "results": "All instances returned 0 posts or empty results for gender/feminist queries",
+      "note": "Lemmy instances either block API access or have no content matching search terms from this IP"
+    },
+    "bluesky": {
+      "status": "accessible_via_api_bsky_app",
+      "endpoint": "api.bsky.app/xrpc/app.bsky.feed.searchPosts",
+      "search_results": {
+        "feminist": {
+          "count": 20,
+          "sample_posts": [
+            {
+              "handle": "bloomfilters.plus",
+              "text": "met two trans women of colour working on feminist research...",
+              "likes": 2
+            },
+            {
+              "handle": "finn0101.bsky.social",
+              "text": "it truly is extraordinary how they managed to convince millions...",
+              "likes": 0
+            },
+            {
+              "handle": "soapboxsam.bsky.social",
+              "text": "I'm currently at 75% daughters...",
+              "likes": 0
+            },
+            {
+              "handle": "amiserablerabbit.bsky.social",
+              "text": "Omg yes. It was fun. But omg why was everyone treating it...",
+              "likes": 3
+            }
+          ]
+        },
+        "gender_war": {
+          "count": 25,
+          "notable_posts": [
+            {
+              "handle": "jesspected.bsky.social",
+              "text": "Men will make up women to be angry at (& want to harm) then claim women are creating a 'gender war'...",
+              "likes": 1
+            },
+            {
+              "handle": "blot.city",
+              "text": "Interesting detail from a Julie Bindel bit about Trans Regret...",
+              "likes": 17
+            },
+            {
+              "handle": "scarsandhearts.bsky.social",
+              "text": "Doesn't it make anyone else SO fucking ANNOYED they have turned a class war into a gender & race war...",
+              "likes": 4
+            }
+          ]
+        },
+        "misandry": {
+          "count": 24,
+          "sample_posts": [
+            {
+              "handle": "landbeforetim.bsky.social",
+              "text": "Reverse racism isn't real. Cisphobia isn't real. Misandry isn't real...",
+              "likes": 6,
+              "reposts": 3
+            },
+            {
+              "handle": "kinggcatt.bsky.social",
+              "text": "#feetkink #footfetish #handjob... #misandry",
+              "likes": 41,
+              "reposts": 10
+            },
+            {
+              "handle": "teabrush.bsky.social",
+              "text": "This question really boils down to what sexism fundamentally even is...",
+              "likes": 9
+            }
+          ]
+        },
+        "hypergamy": {
+          "count": 25,
+          "sample_posts": [
+            {
+              "handle": "igormgtow.bsky.social",
+              "text": "With all due respect, your name contains 'Hypergamy Relationship Strategist'...",
+              "likes": 0,
+              "reposts": 1
+            },
+            {
+              "handle": "sannewman.bsky.social",
+              "text": "Look at these guys. They aren't whining about 'hypergamy' and 'chads.'...",
+              "likes": 64,
+              "reposts": 6
+            },
+            {
+              "handle": "oponiak.bsky.social",
+              "text": "As the manosphere simultaneously tells us to choose better partners...",
+              "likes": 9
+            }
+          ]
+        },
+        "red_pill": {
+          "count": 25,
+          "sample_posts": [
+            {
+              "handle": "textualdeviance.bsky.social",
+              "text": "I'm 54. It's not happening in my lifetime...",
+              "likes": 1
+            },
+            {
+              "handle": "ljay90.bsky.social",
+              "text": "at some point, we need to admit that a lot of the T'Challa discourse is just thinly veiled red pill rhetoric.",
+              "likes": 2
+            },
+            {
+              "handle": "comeonmanpod.bsky.social",
+              "text": "Get Her To F*ck You Again: A Red Pill Guide To Fix A Dead Bedroom.",
+              "likes": 0
+            }
+          ]
+        },
+        "toxic_masculinity": {
+          "count": 24,
+          "sample_posts": [
+            {
+              "handle": "terrible.moe",
+              "text": "Being trans is incredible in that we all kinda saw a somewhat better world developing...",
+              "likes": 45,
+              "reposts": 11
+            },
+            {
+              "handle": "delafina777.bsky.social",
+              "text": "I wonder if so many Gen Z and younger millennial men are so obsessed with the most toxic forms of masculinity...",
+              "likes": 7
+            }
+          ]
+        }
+      }
+    },
+    "dev_to": {
+      "status": "very_limited_content",
+      "articles_found": 4,
+      "articles": [
+        {
+          "title": "Making tech survivable: What can men do?",
+          "author": "kmelve",
+          "url": "https://dev.to/kmelve/making-tech-survivable-what-can-men-do-4d4k",
+          "reactions": 12,
+          "description": "23 tips for those who want to contribute to a better workplace"
+        },
+        {
+          "title": "Fascinating stuff in our software pipeline numbers",
+          "author": "suedeyloh",
+          "url": "https://dev.to/suedeyloh/fascinating-stuff-in-our-software-pipeline-numbers-33fl",
+          "reactions": 9
+        },
+        {
+          "title": "How to empower women in a digital world",
+          "author": "eys",
+          "url": "https://dev.to/eys/how-to-empower-women-in-a-digital-world-500m",
+          "reactions": 10
+        }
+      ],
+      "note": "Dev.to has minimal gender wars discourse - mostly tech/diversity articles with low engagement"
+    },
+    "substack": {
+      "status": "blocked_or_no_data",
+      "domains_tried": [
+        "heterodon",
+        "bellafk",
+        "themplar",
+        "guy1",
+        "the-last-man",
+        "baekeland"
+      ],
+      "api_endpoints_tried": [
+        "substack.com/api/v1/posts?search=feminism"
+      ],
+      "results": "All failed - no data returned",
+      "note": "Substack API requires authentication or is blocked from this IP"
+    },
+    "reddit": {
+      "status": "accessible",
+      "communities_scraped": {
+        "TrollCoping": {
+          "post_count": 20,
+          "top_posts": [
+            {
+              "score": 960,
+              "author": "_-_-Ellie-_-_",
+              "title": "[TW//feminism]Are they intentionally being dense"
+            },
+            {
+              "score": 2448,
+              "author": "NicholasFentonMoment",
+              "title": "My mom is relieved I have DID and am no longer trans"
+            },
+            {
+              "score": 1784,
+              "author": "Charming_Fuel8252",
+              "title": "when ur black enough, leftists and alt right chuds start to look the same"
+            }
+          ]
+        },
+        "PurplePillDebate": {
+          "post_count": 20,
+          "top_posts": [
+            {
+              "score": 60,
+              "author": "Low-Contact6500",
+              "title": "women do not hate objectification, they hate low value objectification"
+            },
+            {
+              "score": 75,
+              "author": "LiftSleepRepeat123",
+              "title": "I think a large percentage of men are dropping out of dating"
+            },
+            {
+              "score": 109,
+              "author": "Low-Contact6500",
+              "title": "unselected men should not feel moral guilt/responsibility for women's dating choices"
+            },
+            {
+              "score": 206,
+              "author": "Chemical-Low209",
+              "title": "I find it EXTREMELY hard to sympathize with most of women's dating woes"
+            },
+            {
+              "score": 38,
+              "author": "Open-Quail-2573",
+              "title": "Female hypergamy is not only alive but thriving"
+            }
+          ]
+        },
+        "FemaleDatingStrategy": {
+          "post_count": 20,
+          "top_posts": [
+            {
+              "score": 602,
+              "author": "Unbotherella",
+              "title": "Dr. Gail Dines Returns to Discuss Porn, Power, and the Collapse of Masculinity"
+            },
+            {
+              "score": 192,
+              "author": "Unbotherella",
+              "title": "Safety First! Non-Negotiables for Smart Dating!"
+            },
+            {
+              "score": 138,
+              "author": "SnarkSticks",
+              "title": "BDSM Community Outraged By Domestic Violence Laws"
+            },
+            {
+              "score": 130,
+              "author": "Unbotherella",
+              "title": "Inside the Mind of Misogyny: A Conversation With Lundy Bancroft"
+            },
+            {
+              "score": 112,
+              "author": "Unbotherella",
+              "title": "Gaslight, Deflect, Repeat: The Logical Fallacies Used to Derail Women's Standard"
+            }
+          ]
+        },
+        "FeMRADebates": {
+          "post_count": 20,
+          "top_posts": [
+            {
+              "score": 30,
+              "author": "blackmamba4554",
+              "title": "Mainstream media continues to focus on women among the killed. Are men's lives l"
+            },
+            {
+              "score": 17,
+              "author": "blackmamba4554",
+              "title": "German men need permission to leave the country"
+            },
+            {
+              "score": 16,
+              "author": "Both_Relationship_62",
+              "title": "Men's rights activism faces obstacles at three levels"
+            },
+            {
+              "score": 12,
+              "author": "blackmamba4554",
+              "title": "According to some feminists' logic ( and policy) domestic violence in both gay a"
+            }
+          ]
+        },
+        "LeftWingMaleAdvocates": {
+          "post_count": 20,
+          "top_posts": [
+            {
+              "score": 301,
+              "author": "IngannoDellaCadrega",
+              "title": "I found a concerning comment on Male Loneliness Epidemic from an Amnesty activis"
+            },
+            {
+              "score": 203,
+              "author": "Difficult_Shift_3771",
+              "title": "Many 'intersectional feminists' have a very shallow understanding of intersectionio"
+            },
+            {
+              "score": 144,
+              "author": "Similar-Pear4585",
+              "title": "Genuinely curious where women get the idea men sexually assault men more than wo"
+            },
+            {
+              "score": 137,
+              "author": "BloomingBrains",
+              "title": "How do you other queer LWMA's connect with other LGBTQ people"
+            }
+          ]
+        },
+        "MensRights": {
+          "post_count": 20,
+          "top_posts": [
+            {
+              "score": 533,
+              "author": "Just_Scallion_9556",
+              "title": "Men No Longer Even Trying to Date: The Reason Is Obvious"
+            },
+            {
+              "score": 326,
+              "author": "Rare_Fig_4579",
+              "title": "Indian Court convicts 43 year old woman for falsely accusing her husband of rape"
+            },
+            {
+              "score": 243,
+              "author": "Gabriel25Th",
+              "title": "A girl goes viral after getting stuck in an elevator with a group of immature g"
+            },
+            {
+              "score": 191,
+              "author": "Aexaus",
+              "title": "Double Standards - Women are Allowed to be Racially Selective"
+            }
+          ]
+        }
+      },
+      "blocked_communities": [
+        "GenderCritical",
+        "TheRedPill",
+        "MGTOW",
+        "GenderWars",
+        "4BUncensored"
+      ],
+      "note": "Many gender-war adjacent subreddits are privated/banned or return 0 posts via API"
+    }
+  },
+  "summary": {
+    "platforms_accessible": [
+      "reddit",
+      "bluesky"
+    ],
+    "platforms_blocked": [
+      "lemmy",
+      "substack",
+      "dev_to_limited"
+    ],
+    "key_findings": [
+      "Bluesky has active gender wars discourse across multiple search terms - feminist, misandry, hypergamy, red pill content found",
+      "Bluesky hypergamy search shows @comeonmanpod.bsky.social posting heavily about hypergamy and MGTOW content",
+      "Bluesky misandry discourse includes debate about whether misandry is 'real' structurally",
+      "Reddit FemaleDatingStrategy has high-engagement content about toxic masculinity, porn industry, dating strategies",
+      "Reddit PurplePillDebate has active gender war discourse - hypergamy, objectification, dating market topics",
+      "Reddit FeMRADebates and LeftWingMaleAdvocates have gender debate content from men's rights perspective",
+      "Dev.to has minimal gender wars content - not a significant platform for this discourse",
+      "Lemmy instances all blocked or returned empty results",
+      "Substack API blocked from this IP"
+    ]
+  },
+  "scrape_timestamp": "2026-05-03T22:46:22.052650"
+}

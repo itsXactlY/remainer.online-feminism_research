@@ -1,0 +1,57 @@
+{
+  "analysis_date": "2026-05-03",
+  "videos_analyzed": 5,
+  "source": "YouTube auto-captions via yt-dlp",
+  "videos": [
+    {
+      "video_id": "bVH_c-s9Oho",
+      "title": "Men's Rights Activists vs Feminists | Middle Ground",
+      "channel": "Jubilee",
+      "views": 2905288,
+      "duration_seconds": 5648,
+      "position": "Center-left/Moderate debate platform",
+      "transcript_file": "bVH_c-s9Oho_analysis.json",
+      "transcript_length_chars": 302842
+    },
+    {
+      "video_id": "3WMuzhQXJoY",
+      "title": "MEETING THE ENEMY A feminist comes to terms with the Men's Rights movement | Cassie Jaye | TEDxMarin",
+      "channel": "TEDx Talks",
+      "views": 13449094,
+      "duration_seconds": 887,
+      "position": "Empathetic to MRM, Critical of mainstream feminism",
+      "transcript_file": "3WMuzhQXJoY_analysis.json",
+      "transcript_length_chars": 29013
+    },
+    {
+      "video_id": "W6aDNutZoB0",
+      "title": "\"toxic\" femininity: what's up with girlbloggers, female manipulators, and femcels?",
+      "channel": "Mina Le",
+      "views": 3181702,
+      "duration_seconds": 1739,
+      "position": "Analytical/Critical of feminine toxicity",
+      "transcript_file": "W6aDNutZoB0_analysis.json",
+      "transcript_length_chars": 80088
+    },
+    {
+      "video_id": "FJNnSlTZE9E",
+      "title": "The failure of feminist Hollywood",
+      "channel": "Sydney Watson",
+      "views": 710485,
+      "duration_seconds": 820,
+      "position": "Anti-feminist/Critical of feminist Hollywood",
+      "transcript_file": "FJNnSlTZE9E_analysis.json",
+      "transcript_length_chars": 57919
+    },
+    {
+      "video_id": "gX5Vaqx_nNg",
+      "title": "Jordan Peterson on \"Toxic Femininity\"",
+      "channel": "Jordan Peterson",
+      "views": 516077,
+      "duration_seconds": 505,
+      "position": "Clinical psychologist, Anti-feminist, Traditionalist",
+      "transcript_file": "gX5Vaqx_nNg_analysis.json",
+      "transcript_length_chars": 21639
+    }
+  ]
+}

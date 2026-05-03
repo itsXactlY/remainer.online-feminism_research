@@ -1,0 +1,229 @@
+{
+  "fetch_date": "2026-05-03",
+  "articles": [
+    {
+      "id": "nyt_silicon_valley_backlash_2017",
+      "source": "New York Times",
+      "title": "Push for Gender Equality in Tech? Some Men Say It's Gone Too Far",
+      "date": "2017-09-23",
+      "url": "https://www.nytimes.com/2017/09/23/technology/silicon-valley-men-backlash-gender-scandals.html",
+      "fetch_status": "success_from_archive",
+      "local_file": "nyt_silicon_valley_archive.txt",
+      "summary": "Examines backlash from men in Silicon Valley against gender equality push, covers men's rights groups, MGTOW, James Damore memo, investor reactions.",
+      "key_themes": [
+        "tech industry gender backlash",
+        "men's rights movement",
+        "MGTOW",
+        "James Damore Google memo",
+        "diversity training resistance"
+      ]
+    },
+    {
+      "id": "latimes_south_korea_gender_wars_2021",
+      "source": "Los Angeles Times",
+      "title": "The pinching hand: Anti-feminist backlash drives up the fever pitch of South Korea's gender wars",
+      "date": "2021-06-11",
+      "url": "https://www.latimes.com/world-nation/story/2021-06-11/whats-size-got-to-do-with-it-the-pinching-hand-anti-feminist-backlash-drive-up-the-fever-pitch-of-south-koreas-gender-wars",
+      "fetch_status": "success",
+      "local_file": "latimes_south_korea_gender.txt",
+      "summary": "Examines South Korea's gender wars fueled by anti-feminist backlash. Young men equate feminism with hatred of men, campaign against companies using feminist imagery, major corporations capitulate.",
+      "key_themes": [
+        "South Korea gender wars",
+        "anti-feminism",
+        "young men backlash",
+        "pinching hand symbol",
+        "men's rights groups",
+        "gender inequality in Korea"
+      ]
+    },
+    {
+      "id": "newyorker_radical_feminism_transgender_2014",
+      "source": "New Yorker",
+      "title": "What Is a Woman? The dispute between radical feminism and transgenderism",
+      "date": "2014-07-28",
+      "url": "https://www.newyorker.com/magazine/2014/08/04/woman-2",
+      "fetch_status": "success",
+      "local_file": "newyorker_radical_feminism.txt",
+      "summary": "Explores conflict between radical feminists and trans people, covers history of second-wave feminist split over trans women, TERF debates, threats against radical feminists, political inversion as trans rights gain acceptance.",
+      "key_themes": [
+        "radical feminism vs transgender",
+        "second wave feminism",
+        "TERF",
+        "gender as caste",
+        "trans rights movement",
+        "Radfems Respond conference",
+        "D.G.R. group"
+      ]
+    }
+  ],
+  "hn_stories": [
+    {
+      "id": "hn_18763486",
+      "source": "Hacker News",
+      "title": "Patreon Bars Anti-Feminist for Racist Speech, Inciting Revolt",
+      "points": 302,
+      "num_comments": 730,
+      "date": "2018-12-24",
+      "url": "https://www.nytimes.com/2018/12/24/technology/patreon-hate-s",
+      "fetch_status": "partial_comments_fetched",
+      "local_file": "hn_comments_18763486.txt",
+      "summary": "Major HN discussion about Patreon banning Sargon of Akkad for alleged racist speech. Thread covers free speech, platform censorship, deplatforming, centralization of internet infrastructure.",
+      "key_themes": [
+        "Patreon deplatforming",
+        "free speech vs platform rights",
+        "anti-feminist",
+        "Sargon of Akkad",
+        "censorship",
+        "centralization"
+      ]
+    },
+    {
+      "id": "hn_21774299",
+      "source": "Hacker News",
+      "title": "The More Gender Equality, the Fewer Women in STEM (2018)",
+      "points": 330,
+      "num_comments": 602,
+      "date": "2018-02",
+      "url": "https://www.theatlantic.com/science/archive/2018/02/the-more",
+      "fetch_status": "partial_comments_fetched",
+      "local_file": "hn_comments_21774299.txt",
+      "summary": "HN discussion of study showing countries with more gender equality have fewer women in STEM. Thread debates biological vs social explanations, equality of opportunity vs outcome.",
+      "key_themes": [
+        "gender equality paradox",
+        "women in STEM",
+        "biological differences",
+        "equality of opportunity vs outcome",
+        "Scandinavian countries",
+        "career interests"
+      ]
+    },
+    {
+      "id": "hn_30794300",
+      "source": "Hacker News",
+      "title": "The dispute between radical feminism and transgenderism (2014)",
+      "points": 60,
+      "num_comments": 256,
+      "date": "2014",
+      "url": "https://www.newyorker.com/magazine/2014/08/04/woman-2",
+      "fetch_status": "article_fetched_separately",
+      "local_file": "newyorker_radical_feminism.txt",
+      "summary": "HN discussion of New Yorker article on radical feminism vs transgenderism debate. 256 comments on the conflict.",
+      "key_themes": [
+        "radical feminism",
+        "transgender",
+        "TERF",
+        "gender politics"
+      ]
+    },
+    {
+      "id": "hn_gender_equality_stem_16407678",
+      "source": "Hacker News",
+      "title": "Countries with more gender equality have fewer female STEM grads",
+      "points": 257,
+      "num_comments": 287,
+      "url": "https://www.thejournal.ie/gender-equality-countries-stem-girls-16407678/",
+      "fetch_status": "not_fetched",
+      "summary": "Irish mirror of the STEM gender equality study, highly upvoted on HN."
+    },
+    {
+      "id": "hn_nyt_gender_pushback_15321438",
+      "source": "Hacker News",
+      "title": "Push for Gender Equality in Tech? Some Men Say It's Gone Too Far",
+      "points": 89,
+      "num_comments": 112,
+      "url": "https://www.nytimes.com/2017/09/23/technology/silicon-valley-men-backlash-gender-scandals.html",
+      "fetch_status": "article_fetched_via_archive",
+      "local_file": "nyt_silicon_valley_archive.txt",
+      "summary": "HN discussion of the NYT article on Silicon Valley men pushing back against gender equality push."
+    },
+    {
+      "id": "hn_metoo_backlash_19040193",
+      "source": "Hacker News",
+      "title": "Another Side of MeToo: Male Managers Fearful of Mentoring Women",
+      "points": 31,
+      "num_comments": 33,
+      "url": "https://www.nytimes.com/2019/01/27/world/europe/metoo-backlash-men-fearful-mentoring-women.html",
+      "fetch_status": "not_fetched",
+      "summary": "NYT article on men pulling back from mentoring women due to MeToo backlash."
+    },
+    {
+      "id": "hn_metoo_backlash_hbr_20835772",
+      "source": "Hacker News",
+      "title": "The MeToo Backlash",
+      "points": 28,
+      "num_comments": 3,
+      "url": "https://hbr.org/2019/09/the-metoo-backlash",
+      "fetch_status": "not_fetched",
+      "summary": "Harvard Business Review article on MeToo backlash in workplaces."
+    },
+    {
+      "id": "hn_mens_rights_california_17525161",
+      "source": "Hacker News",
+      "title": "A Fight for Men's Rights in California Courts",
+      "points": 21,
+      "num_comments": 21,
+      "url": "https://www.nytimes.com/2018/07/13/style/mens-rights-movement-california-family-courts.html",
+      "fetch_status": "not_fetched",
+      "summary": "NYT profile of men's rights movement in California family courts."
+    },
+    {
+      "id": "hn_feminist_games_bbc_8458865",
+      "source": "Hacker News",
+      "title": "Feminist video-games talk pulled after massacre threat",
+      "points": 149,
+      "num_comments": 323,
+      "url": "http://www.bbc.com/news/technology-29626809",
+      "fetch_status": "not_fetched",
+      "summary": "Anita Sarkeesian talk cancelled due to threats of mass shooting. Major HN discussion on feminist criticism in gaming, GamerGate era."
+    }
+  ],
+  "files_in_directory": [
+    "articles_metadata.json",
+    "hbr_metoo_backlash.txt",
+    "hn_comments_18763486.txt",
+    "hn_comments_21774299.txt",
+    "hn_comments_30794300.txt",
+    "hn_comments_8458865.txt",
+    "hn_gender_queries.txt",
+    "hn_radical_feminism_search.txt",
+    "hn_story_lookup.txt",
+    "latimes_south_korea_gender.txt",
+    "newyorker_radical_feminism.txt",
+    "nyt_mens_rights_california.txt",
+    "nyt_metoo_backlash_2019.txt",
+    "nyt_metoo_backlash_2019_v2.txt",
+    "nyt_silicon_valley_archive.txt",
+    "nyt_silicon_valley_backlash.txt",
+    "nyt_silicon_valley_v2.txt"
+  ],
+  "notes": {
+    "nyt_article": "Fetched via web.archive.org since direct NYT paywall blocked scraping",
+    "hn_comments": "Fetched via HN Firebase API and Algolia API, comments are HTML-encoded",
+    "patreon_story": "730 total comments, fetched tree structure with depth=2",
+    "stem_gender_story": "602 total comments, fetched tree structure with depth=2"
+  },
+  "additional_articles": [
+    {
+      "id": "hbr_metoo_backlash",
+      "source": "Harvard Business Review",
+      "title": "The #MeToo Backlash",
+      "date": "2019-09",
+      "url": "https://hbr.org/2019/09/the-metoo-backlash",
+      "fetch_status": "partial_content",
+      "local_file": "hbr_metoo_backlash.txt",
+      "summary": "Management professor Leanne Atwater predicted backlash to MeToo. Research shows managers are now hesitant to mentor women, give feedback, or meet alone with them."
+    },
+    {
+      "id": "hn_gamergate_anita_sarkeesian",
+      "source": "Hacker News",
+      "title": "Feminist video-games talk pulled after massacre threat",
+      "points": 149,
+      "num_comments": 323,
+      "date": "2014",
+      "url": "http://www.bbc.com/news/technology-29626809",
+      "fetch_status": "comments_fetched",
+      "local_file": "hn_comments_8458865.txt",
+      "summary": "Anita Sarkeesian cancelled Utah State talk due to mass shooting threat and Utah's concealed carry laws. HN debate covered GamerGate, ethics in game journalism, free speech, feminist critique of video games."
+    }
+  ]
+}

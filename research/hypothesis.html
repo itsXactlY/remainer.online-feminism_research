@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+
+<html class="no-js" data-content_root="./" lang="en">
+<head><meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="light dark" name="color-scheme"/><meta content="width=device-width, initial-scale=1" name="viewport">
+<link href="genindex.html" rel="index" title="Index"/><link href="search.html" rel="search" title="Search"/><link href="tutorial/index.html" rel="next" title="Tutorial"/><link href="index.html" rel="prev" title="Welcome to Hypothesis!"/>
+<link as="image" href="_static/dragonfly-rainbow-150w.svg" rel="prefetch"/>
+<link href="_static/favicon.ico" rel="shortcut icon"/><!-- Generated with Sphinx 9.1.0 and Furo 2025.12.19 -->
+<title>Quickstart - Hypothesis 6.152.1 documentation</title>
+<link href="_static/pygments.css?v=fa44fd50" rel="stylesheet" type="text/css">
+<link href="_static/styles/furo.css?v=7bdb33bb" rel="stylesheet" type="text/css">
+<link href="_static/sphinx-codeautolink.css?v=b2176991" rel="stylesheet" type="text/css">
+<link href="_static/styles/furo-extensions.css?v=8dab3a3b" rel="stylesheet" type="text/css">
+<link href="_static/better-signatures.css?v=f9c3c8a0" rel="stylesheet" type="text/css">
+<link href="_static/wrap-in-tables.css?v=c820cdfb" rel="stylesheet" type="text/css">
+<link href="_static/no-scroll.css?v=3215cb85" rel="stylesheet" type="text/css"/>
+<link href="_static/dark-fix.css?v=003f91a0" rel="stylesheet" type="text/css"/>
+<style>
+  body {
+    --color-code-background: #eeffcc;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></link></link></link></link></link></link></meta><script async type="text/javascript" src="/_/static/javascript/readthedocs-addons.js"></script><meta name="readthedocs-project-slug" content="hypothesis" /><meta name="readthedocs-version-slug" content="latest" /><meta name="readthedocs-resolver-filename" content="/quickstart.html" /><meta name="readthedocs-http-status" content="200" /></head>
+<body>
+<script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+<svg style="display: none;" xmlns="http://www.w3.org/2000/svg">
+<symbol id="svg-toc" viewbox="0 0 24 24">
+<title>Contents</title>
+<svg fill="currentColor" stroke="currentColor" stroke-width="0" viewbox="0 0 1024 1024">
+<path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"></path>
+</svg>
+</symbol>
+<symbol id="svg-menu" viewbox="0 0 24 24">
+<title>Menu</title>
+<svg class="feather-menu" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<line x1="3" x2="21" y1="12" y2="12"></line>
+<line x1="3" x2="21" y1="6" y2="6"></line>
+<line x1="3" x2="21" y1="18" y2="18"></line>
+</svg>
+</symbol>
+<symbol id="svg-arrow-right" viewbox="0 0 24 24">
+<title>Expand</title>
+<svg class="feather-chevron-right" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="9 18 15 12 9 6"></polyline>
+</svg>
+</symbol>
+<symbol id="svg-sun" viewbox="0 0 24 24">
+<title>Light mode</title>
+<svg class="feather-sun" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<circle cx="12" cy="12" r="5"></circle>
+<line x1="12" x2="12" y1="1" y2="3"></line>
+<line x1="12" x2="12" y1="21" y2="23"></line>
+<line x1="4.22" x2="5.64" y1="4.22" y2="5.64"></line>
+<line x1="18.36" x2="19.78" y1="18.36" y2="19.78"></line>
+<line x1="1" x2="3" y1="12" y2="12"></line>
+<line x1="21" x2="23" y1="12" y2="12"></line>
+<line x1="4.22" x2="5.64" y1="19.78" y2="18.36"></line>
+<line x1="18.36" x2="19.78" y1="5.64" y2="4.22"></line>
+</svg>
+</symbol>
+<symbol id="svg-moon" viewbox="0 0 24 24">
+<title>Dark mode</title>
+<svg class="icon-tabler-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 0h24v24H0z" fill="none" stroke="none"></path>
+<path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
+</svg>
+</symbol>
+<symbol id="svg-sun-with-moon" viewbox="0 0 24 24">
+<title>Auto light/dark, in light mode</title>
+<svg class="icon-custom-derived-from-feather-sun-and-tabler-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z" style="opacity: 50%"></path>
+<line x1="14.5" x2="14.5" y1="3.25" y2="1.25"></line>
+<line x1="14.5" x2="14.5" y1="15.85" y2="17.85"></line>
+<line x1="10.044" x2="8.63" y1="5.094" y2="3.68"></line>
+<line x1="19" x2="20.414" y1="14.05" y2="15.464"></line>
+<line x1="8.2" x2="6.2" y1="9.55" y2="9.55"></line>
+<line x1="20.8" x2="22.8" y1="9.55" y2="9.55"></line>
+<line x1="10.044" x2="8.63" y1="14.006" y2="15.42"></line>
+<line x1="19" x2="20.414" y1="5.05" y2="3.636"></line>
+<circle cx="14.5" cy="9.55" r="3.6"></circle>
+</svg>
+</symbol>
+<symbol id="svg-moon-with-sun" viewbox="0 0 24 24">
+<title>Auto light/dark, in dark mode</title>
+<svg class="icon-custom-derived-from-feather-sun-and-tabler-moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"></path>
+<line style="opacity: 50%" x1="18" x2="18" y1="3.705" y2="2.5"></line>
+<line style="opacity: 50%" x1="18" x2="18" y1="11.295" y2="12.5"></line>
+<line style="opacity: 50%" x1="15.316" x2="14.464" y1="4.816" y2="3.964"></line>
+<line style="opacity: 50%" x1="20.711" x2="21.563" y1="10.212" y2="11.063"></line>
+<line style="opacity: 50%" x1="14.205" x2="13.001" y1="7.5" y2="7.5"></line>
+<line style="opacity: 50%" x1="21.795" x2="23" y1="7.5" y2="7.5"></line>
+<line style="opacity: 50%" x1="15.316" x2="14.464" y1="10.184" y2="11.036"></line>
+<line style="opacity: 50%" x1="20.711" x2="21.563" y1="4.789" y2="3.937"></line>
+<circle cx="18" cy="7.5" r="2.169" style="opacity: 50%"></circle>
+</svg>
+</symbol>
+<symbol id="svg-pencil" viewbox="0 0 24 24">
+<svg class="icon-tabler-pencil-code" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4"></path>
+<path d="M13.5 6.5l4 4"></path>
+<path d="M20 21l2 -2l-2 -2"></path>
+<path d="M17 17l-2 2l2 2"></path>
+</svg>
+</symbol>
+<symbol id="svg-eye" viewbox="0 0 24 24">
+<svg class="icon-tabler-eye-code" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 0h24v24H0z" fill="none" stroke="none"></path>
+<path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path>
+<path d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008"></path>
+<path d="M20 21l2 -2l-2 -2"></path>
+<path d="M17 17l-2 2l2 2"></path>
+</svg>
+</symbol>
+</svg>
+<input aria-label="Toggle site navigation sidebar" class="sidebar-toggle" id="__navigation" name="__navigation" type="checkbox"/>
+<input aria-label="Toggle table of contents sidebar" class="sidebar-toggle" id="__toc" name="__toc" type="checkbox"/>
+<label class="overlay sidebar-overlay" for="__navigation"></label>
+<label class="overlay toc-overlay" for="__toc"></label>
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+<div class="page">
+<header class="mobile-header">
+<div class="header-left">
+<label class="nav-overlay-icon" for="__navigation">
+<span class="icon"><svg><use href="#svg-menu"></use></svg></span>
+</label>
+</div>
+<div class="header-center">
+<a href="index.html"><div class="brand">Hypothesis 6.152.1 documentation</div></a>
+</div>
+<div class="header-right">
+<div class="theme-toggle-container theme-toggle-header">
+<button aria-label="Toggle Light / Dark / Auto color theme" class="theme-toggle">
+<svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+<svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+<svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+<svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+</button>
+</div>
+<label class="toc-overlay-icon toc-header-icon" for="__toc">
+<span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+</label>
+</div>
+</header>
+<aside class="sidebar-drawer">
+<div class="sidebar-container">
+<div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
+<div class="sidebar-logo-container">
+<img alt="Logo" class="sidebar-logo" src="_static/dragonfly-rainbow-150w.svg"/>
+</div>
+</a><form action="search.html" class="sidebar-search-container" method="get" role="search">
+<input aria-label="Search" class="sidebar-search" name="q" placeholder="Search"/>
+<input name="check_keywords" type="hidden" value="yes"/>
+<input name="area" type="hidden" value="default"/>
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+<ul class="current">
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Quickstart</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="tutorial/index.html">Tutorial</a><input aria-label="Toggle navigation of Tutorial" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"><label for="toctree-checkbox-1"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="tutorial/introduction.html">Introduction to Hypothesis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tutorial/builtin-strategies.html">Built-in strategies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tutorial/adapting-strategies.html">Adapting strategies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tutorial/custom-strategies.html">Custom strategies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tutorial/settings.html">Configuring test settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tutorial/replaying-failures.html">Replaying failed tests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tutorial/adding-notes.html">Adding notes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tutorial/flaky.html">Flaky failures</a></li>
+</ul>
+</input></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="how-to/index.html">How-to guides</a><input aria-label="Toggle navigation of How-to guides" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"><label for="toctree-checkbox-2"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="how-to/suppress-healthchecks.html">Suppress a health check everywhere</a></li>
+<li class="toctree-l2"><a class="reference internal" href="how-to/type-strategies.html">Write type hints for strategies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="how-to/custom-database.html">Write a custom Hypothesis database</a></li>
+<li class="toctree-l2"><a class="reference internal" href="how-to/detect-hypothesis-tests.html">Detect Hypothesis tests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="how-to/external-fuzzers.html">Use Hypothesis with an external fuzzer</a></li>
+</ul>
+</input></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="explanation/index.html">Explanations</a><input aria-label="Toggle navigation of Explanations" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"><label for="toctree-checkbox-3"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="explanation/domain.html">Domain and distribution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="explanation/example-count.html">How many times will Hypothesis run my test?</a></li>
+</ul>
+</input></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="reference/index.html">API Reference</a><input aria-label="Toggle navigation of API Reference" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"><label for="toctree-checkbox-4"><span class="icon"><svg><use href="#svg-arrow-right"></use></svg></span></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="reference/api.html">API Reference</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference/strategies.html">Strategies Reference</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference/integrations.html">Integrations Reference</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference/internals.html">Hypothesis internals</a></li>
+</ul>
+</input></li>
+<li class="toctree-l1"><a class="reference internal" href="stateful.html">Stateful tests</a></li>
+<li class="toctree-l1"><a class="reference internal" href="extras.html">Extras</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">About Hypothesis</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="development.html">Hypothesis development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="compatibility.html">Compatibility</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Projects using Hypothesis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="extensions.html">Third-party extensions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="packaging.html">Packaging guidelines</a></li>
+<li class="toctree-l1"><a class="reference internal" href="community.html">Community</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</aside>
+<div class="main">
+<div class="content">
+<div class="article-container">
+<a class="back-to-top muted-link" href="#">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+</svg>
+<span>Back to top</span>
+</a>
+<div class="content-icon-container">
+<div class="view-this-page">
+<a class="muted-link" href="_sources/quickstart.rst.txt" title="View this page">
+<svg><use href="#svg-eye"></use></svg>
+<span class="visually-hidden">View this page</span>
+</a>
+</div>
+<div class="theme-toggle-container theme-toggle-content">
+<button aria-label="Toggle Light / Dark / Auto color theme" class="theme-toggle">
+<svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+<svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+<svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+<svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+</button>
+</div>
+<label class="toc-overlay-icon toc-content-icon" for="__toc">
+<span class="icon"><svg><use href="#svg-toc"></use></svg></span>
+</label>
+</div>
+<article id="furo-main-content" role="main">
+<section id="quickstart">
+<h1>Quickstart<a class="headerlink" href="#quickstart" title="Link to this heading">¶</a></h1>
+<p>This is a lightning introduction to the most important features of Hypothesis; enough to get you started writing tests. The <a class="reference internal" href="tutorial/index.html"><span class="doc">tutorial</span></a> introduces these features (and more) in greater detail.</p>
+<section id="install-hypothesis">
+<h2>Install Hypothesis<a class="headerlink" href="#install-hypothesis" title="Link to this heading">¶</a></h2>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>pip<span class="w"> </span>install<span class="w"> </span>hypothesis
+</pre></div>
+</div>
+</section>
+<section id="write-your-first-test">
+<h2>Write your first test<a class="headerlink" href="#write-your-first-test" title="Link to this heading">¶</a></h2>
+<p>Create a new file called <code class="docutils literal notranslate"><span class="pre">example.py</span></code>, containing a simple test:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># contents of example.py</span>
+<span class="kn">from</span> <span class="nn">hypothesis</span> <span class="kn">import</span> <a class="sphinx-codeautolink-a" href="reference/api.html#hypothesis.given" title="hypothesis.given"><span class="n">given</span></a><span class="p">,</span> <span class="n">strategies</span> <span class="k">as</span> <span class="n">st</span>
+
+<a class="sphinx-codeautolink-a" href="reference/api.html#hypothesis.given" title="hypothesis.given"><span class="nd">@given</span></a><span class="p">(</span><a class="sphinx-codeautolink-a" href="reference/strategies.html#hypothesis.strategies.integers" title="hypothesis.strategies.integers"><span class="n">st</span><span class="o">.</span><span class="n">integers</span></a><span class="p">())</span>
+<span class="k">def</span> <span class="nf">test_integers</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <a class="sphinx-codeautolink-a" href="https://docs.python.org/3/library/functions.html#print" title="print"><span class="nb">print</span></a><span class="p">(</span><span class="sa">f</span><span class="s2">"called with </span><span class="si">{</span><span class="n">n</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
+    <span class="k">assert</span> <a class="sphinx-codeautolink-a" href="https://docs.python.org/3/library/functions.html#isinstance" title="isinstance"><span class="nb">isinstance</span></a><span class="p">(</span><span class="n">n</span><span class="p">,</span> <a class="sphinx-codeautolink-a" href="https://docs.python.org/3/library/functions.html#int" title="int"><span class="nb">int</span></a><span class="p">)</span>
+
+<span class="n">test_integers</span><span class="p">()</span>
+</pre></div>
+</div>
+<p><a class="reference internal" href="reference/api.html#hypothesis.given" title="hypothesis.given"><code class="xref py py-func docutils literal notranslate"><span class="pre">@given</span></code></a> is the standard entrypoint to Hypothesis. It takes a <em>strategy</em>, which describes the type of inputs you want the decorated function to accept. When we call <code class="docutils literal notranslate"><span class="pre">test_integers</span></code>, Hypothesis will generate random integers (because we used the <a class="reference internal" href="reference/strategies.html#hypothesis.strategies.integers" title="hypothesis.strategies.integers"><code class="xref py py-func docutils literal notranslate"><span class="pre">integers()</span></code></a> strategy) and pass them as <code class="docutils literal notranslate"><span class="pre">n</span></code>. Let’s see that in action now by running <code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">example.py</span></code>:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>called with 0
+called with -18588
+called with -672780074
+called with 32616
+...
+</pre></div>
+</div>
+<p>We just called <code class="docutils literal notranslate"><span class="pre">test_integers()</span></code>, without passing a value for <code class="docutils literal notranslate"><span class="pre">n</span></code>, because Hypothesis generates random values of <code class="docutils literal notranslate"><span class="pre">n</span></code> for us.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>By default, Hypothesis generates 100 random inputs. You can control this with the <a class="reference internal" href="reference/api.html#hypothesis.settings.max_examples" title="hypothesis.settings.max_examples"><code class="xref py py-obj docutils literal notranslate"><span class="pre">max_examples</span></code></a> setting.</p>
+</div>
+</section>
+<section id="running-in-a-test-suite">
+<h2>Running in a test suite<a class="headerlink" href="#running-in-a-test-suite" title="Link to this heading">¶</a></h2>
+<p>A Hypothesis test is still a regular python function, which means pytest or unittest will pick it up and run it in all the normal ways.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># contents of example.py</span>
+<span class="kn">from</span> <span class="nn">hypothesis</span> <span class="kn">import</span> <a class="sphinx-codeautolink-a" href="reference/api.html#hypothesis.given" title="hypothesis.given"><span class="n">given</span></a><span class="p">,</span> <span class="n">strategies</span> <span class="k">as</span> <span class="n">st</span>
+
+<a class="sphinx-codeautolink-a" href="reference/api.html#hypothesis.given" title="hypothesis.given"><span class="nd">@given</span></a><span class="p">(</span><a class="sphinx-codeautolink-a" href="reference/strategies.html#hypothesis.strategies.integers" title="hypothesis.strategies.integers"><span class="n">st</span><span class="o">.</span><span class="n">integers</span></a><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">200</span><span class="p">))</span>
+<span class="k">def</span> <span class="nf">test_integers</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="k">assert</span> <span class="n">n</span> <span class="o">&lt;</span> <span class="mi">50</span>
+</pre></div>
+</div>
+<p>This test will clearly fail, which can be confirmed by running <code class="docutils literal notranslate"><span class="pre">pytest</span> <span class="pre">example.py</span></code>:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>$ pytest example.py
+
+    ...
+
+    @given(st.integers())
+    def test_integers(n):
+&gt;       assert n &lt; 50
+E       assert 50 &lt; 50
+E       Falsifying example: test_integers(
+E           n=50,
+E       )
+</pre></div>
+</div>
+</section>
+<section id="arguments-to-given">
+<h2>Arguments to <a class="reference internal" href="reference/api.html#hypothesis.given" title="hypothesis.given"><code class="xref py py-func docutils literal notranslate"><span class="pre">@given</span></code></a><a class="headerlink" href="#arguments-to-given" title="Link to this heading">¶</a></h2>
+<p>You can pass multiple arguments to <a class="reference internal" href="reference/api.html#hypothesis.given" title="hypothesis.given"><code class="xref py py-func docutils literal notranslate"><span class="pre">@given</span></code></a>:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><a class="sphinx-codeautolink-a" href="reference/api.html#hypothesis.given" title="hypothesis.given"><span class="nd">@given</span></a><span class="p">(</span><a class="sphinx-codeautolink-a" href="reference/strategies.html#hypothesis.strategies.integers" title="hypothesis.strategies.integers"><span class="n">st</span><span class="o">.</span><span class="n">integers</span></a><span class="p">(),</span> <a class="sphinx-codeautolink-a" href="reference/strategies.html#hypothesis.strategies.text" title="hypothesis.strategies.text"><span class="n">st</span><span class="o">.</span><span class="n">text</span></a><span class="p">())</span>
+<span class="k">def</span> <span class="nf">test_integers</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">s</span><span class="p">):</span>
+    <span class="k">assert</span> <a class="sphinx-codeautolink-a" href="https://docs.python.org/3/library/functions.html#isinstance" title="isinstance"><span class="nb">isinstance</span></a><span class="p">(</span><span class="n">n</span><span class="p">,</span> <a class="sphinx-codeautolink-a" href="https://docs.python.org/3/library/functions.html#int" title="int"><span class="nb">int</span></a><span class="p">)</span>
+    <span class="k">assert</span> <a class="sphinx-codeautolink-a" href="https://docs.python.org/3/library/functions.html#isinstance" title="isinstance"><span class="nb">isinstance</span></a><span class="p">(</span><span class="n">s</span><span class="p">,</span> <a class="sphinx-codeautolink-a" href="https://docs.python.org/3/library/stdtypes.html#str" title="str"><span class="nb">str</span></a><span class="p">)</span>
+</pre></div>
+</div>
+<p>Or use keyword arguments:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><a class="sphinx-codeautolink-a" href="reference/api.html#hypothesis.given" title="hypothesis.given"><span class="nd">@given</span></a><span class="p">(</span><span class="n">n</span><span class="o">=</span><a class="sphinx-codeautolink-a" href="reference/strategies.html#hypothesis.strategies.integers" title="hypothesis.strategies.integers"><span class="n">st</span><span class="o">.</span><span class="n">integers</span></a><span class="p">(),</span> <span class="n">s</span><span class="o">=</span><a class="sphinx-codeautolink-a" href="reference/strategies.html#hypothesis.strategies.text" title="hypothesis.strategies.text"><span class="n">st</span><span class="o">.</span><span class="n">text</span></a><span class="p">())</span>
+<span class="k">def</span> <span class="nf">test_integers</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">s</span><span class="p">):</span>
+    <span class="k">assert</span> <a class="sphinx-codeautolink-a" href="https://docs.python.org/3/library/functions.html#isinstance" title="isinstance"><span class="nb">isinstance</span></a><span class="p">(</span><span class="n">n</span><span class="p">,</span> <a class="sphinx-codeautolink-a" href="https://docs.python.org/3/library/functions.html#int" title="int"><span class="nb">int</span></a><span class="p">)</span>
+    <span class="k">assert</span> <a class="sphinx-codeautolink-a" href="https://docs.python.org/3/library/functions.html#isinstance" title="isinstance"><span class="nb">isinstance</span></a><span class="p">(</span><span class="n">s</span><span class="p">,</span> <a class="sphinx-codeautolink-a" href="https://docs.python.org/3/library/stdtypes.html#str" title="str"><span class="nb">str</span></a><span class="p">)</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>See <a class="reference internal" href="reference/api.html#hypothesis.given" title="hypothesis.given"><code class="xref py py-func docutils literal notranslate"><span class="pre">@given</span></code></a> for details about how <a class="reference internal" href="reference/api.html#hypothesis.given" title="hypothesis.given"><code class="xref py py-func docutils literal notranslate"><span class="pre">@given</span></code></a> handles different types of arguments.</p>
+</div>
+</section>
+<section id="filtering-inside-a-test">
+<h2>Filtering inside a test<a class="headerlink" href="#filtering-inside-a-test" title="Link to this heading">¶</a></h2>
+<p>Sometimes, you need to remove invalid cases from your test. The best way to do this is with <a class="reference internal" href="reference/strategies.html#hypothesis.strategies.SearchStrategy.filter" title="hypothesis.strategies.SearchStrategy.filter"><code class="xref py py-func docutils literal notranslate"><span class="pre">.filter()</span></code></a>:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><a class="sphinx-codeautolink-a" href="reference/api.html#hypothesis.given" title="hypothesis.given"><span class="nd">@given</span></a><span class="p">(</span><a class="sphinx-codeautolink-a" href="reference/strategies.html#hypothesis.strategies.integers" title="hypothesis.strategies.integers"><span class="n">st</span><span class="o">.</span><span class="n">integers</span></a><span class="p">()</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">n</span><span class="p">:</span> <span class="n">n</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">))</span>
+<span class="k">def</span> <span class="nf">test_integers</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="k">assert</span> <span class="n">n</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span>
+</pre></div>
+</div>
+<p>For more complicated conditions, you can use <a class="reference internal" href="reference/api.html#hypothesis.assume" title="hypothesis.assume"><code class="xref py py-func docutils literal notranslate"><span class="pre">assume()</span></code></a>, which tells Hypothesis to discard any test case with a false-y argument:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><a class="sphinx-codeautolink-a" href="reference/api.html#hypothesis.given" title="hypothesis.given"><span class="nd">@given</span></a><span class="p">(</span><a class="sphinx-codeautolink-a" href="reference/strategies.html#hypothesis.strategies.integers" title="hypothesis.strategies.integers"><span class="n">st</span><span class="o">.</span><span class="n">integers</span></a><span class="p">(),</span> <a class="sphinx-codeautolink-a" href="reference/strategies.html#hypothesis.strategies.integers" title="hypothesis.strategies.integers"><span class="n">st</span><span class="o">.</span><span class="n">integers</span></a><span class="p">())</span>
+<span class="k">def</span> <span class="nf">test_integers</span><span class="p">(</span><span class="n">n1</span><span class="p">,</span> <span class="n">n2</span><span class="p">):</span>
+    <a class="sphinx-codeautolink-a" href="reference/api.html#hypothesis.assume" title="hypothesis.assume"><span class="n">assume</span></a><span class="p">(</span><span class="n">n1</span> <span class="o">!=</span> <span class="n">n2</span><span class="p">)</span>
+    <span class="c1"># n1 and n2 are guaranteed to be different here</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can learn more about <a class="reference internal" href="reference/strategies.html#hypothesis.strategies.SearchStrategy.filter" title="hypothesis.strategies.SearchStrategy.filter"><code class="xref py py-func docutils literal notranslate"><span class="pre">.filter()</span></code></a> and <a class="reference internal" href="reference/api.html#hypothesis.assume" title="hypothesis.assume"><code class="xref py py-func docutils literal notranslate"><span class="pre">assume()</span></code></a> in the <a class="reference internal" href="tutorial/adapting-strategies.html"><span class="doc">Adapting strategies</span></a> tutorial page.</p>
+</div>
+</section>
+<section id="dependent-generation">
+<h2>Dependent generation<a class="headerlink" href="#dependent-generation" title="Link to this heading">¶</a></h2>
+<p>You may want an input to depend on the value of another input. For instance, you might want to generate two integers <code class="docutils literal notranslate"><span class="pre">n1</span></code> and <code class="docutils literal notranslate"><span class="pre">n2</span></code> where <code class="docutils literal notranslate"><span class="pre">n1</span> <span class="pre">&lt;=</span> <span class="pre">n2</span></code>.</p>
+<p>You can do this using the <a class="reference internal" href="reference/strategies.html#hypothesis.strategies.composite" title="hypothesis.strategies.composite"><code class="xref py py-func docutils literal notranslate"><span class="pre">@composite</span></code></a> strategy. <a class="reference internal" href="reference/strategies.html#hypothesis.strategies.composite" title="hypothesis.strategies.composite"><code class="xref py py-func docutils literal notranslate"><span class="pre">@composite</span></code></a> lets you define a new strategy which is itself built by drawing values from other strategies, using the automatically-passed <code class="docutils literal notranslate"><span class="pre">draw</span></code> function.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><a class="sphinx-codeautolink-a" href="reference/strategies.html#hypothesis.strategies.composite" title="hypothesis.strategies.composite"><span class="nd">@st</span><span class="o">.</span><span class="n">composite</span></a>
+<span class="k">def</span> <span class="nf">ordered_pairs</span><span class="p">(</span><span class="n">draw</span><span class="p">):</span>
+    <span class="n">n1</span> <span class="o">=</span> <span class="n">draw</span><span class="p">(</span><a class="sphinx-codeautolink-a" href="reference/strategies.html#hypothesis.strategies.integers" title="hypothesis.strategies.integers"><span class="n">st</span><span class="o">.</span><span class="n">integers</span></a><span class="p">())</span>
+    <span class="n">n2</span> <span class="o">=</span> <span class="n">draw</span><span class="p">(</span><a class="sphinx-codeautolink-a" href="reference/strategies.html#hypothesis.strategies.integers" title="hypothesis.strategies.integers"><span class="n">st</span><span class="o">.</span><span class="n">integers</span></a><span class="p">(</span><span class="n">min_value</span><span class="o">=</span><span class="n">n1</span><span class="p">))</span>
+    <span class="k">return</span> <span class="p">(</span><span class="n">n1</span><span class="p">,</span> <span class="n">n2</span><span class="p">)</span>
+
+<a class="sphinx-codeautolink-a" href="reference/api.html#hypothesis.given" title="hypothesis.given"><span class="nd">@given</span></a><span class="p">(</span><span class="n">ordered_pairs</span><span class="p">())</span>
+<span class="k">def</span> <span class="nf">test_pairs_are_ordered</span><span class="p">(</span><span class="n">pair</span><span class="p">):</span>
+    <span class="n">n1</span><span class="p">,</span> <span class="n">n2</span> <span class="o">=</span> <span class="n">pair</span>
+    <span class="k">assert</span> <span class="n">n1</span> <span class="o">&lt;=</span> <span class="n">n2</span>
+</pre></div>
+</div>
+<p>In more complex cases, you might need to interleave generation and test code. In this case, use <a class="reference internal" href="reference/strategies.html#hypothesis.strategies.data" title="hypothesis.strategies.data"><code class="xref py py-func docutils literal notranslate"><span class="pre">data()</span></code></a>.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><a class="sphinx-codeautolink-a" href="reference/api.html#hypothesis.given" title="hypothesis.given"><span class="nd">@given</span></a><span class="p">(</span><a class="sphinx-codeautolink-a" href="reference/strategies.html#hypothesis.strategies.data" title="hypothesis.strategies.data"><span class="n">st</span><span class="o">.</span><span class="n">data</span></a><span class="p">(),</span> <a class="sphinx-codeautolink-a" href="reference/strategies.html#hypothesis.strategies.text" title="hypothesis.strategies.text"><span class="n">st</span><span class="o">.</span><span class="n">text</span></a><span class="p">(</span><span class="n">min_size</span><span class="o">=</span><span class="mi">1</span><span class="p">))</span>
+<span class="k">def</span> <span class="nf">test_string_characters_are_substrings</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">string</span><span class="p">):</span>
+    <span class="k">assert</span> <a class="sphinx-codeautolink-a" href="https://docs.python.org/3/library/functions.html#isinstance" title="isinstance"><span class="nb">isinstance</span></a><span class="p">(</span><span class="n">string</span><span class="p">,</span> <a class="sphinx-codeautolink-a" href="https://docs.python.org/3/library/stdtypes.html#str" title="str"><span class="nb">str</span></a><span class="p">)</span>
+    <span class="n">index</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">draw</span><span class="p">(</span><a class="sphinx-codeautolink-a" href="reference/strategies.html#hypothesis.strategies.integers" title="hypothesis.strategies.integers"><span class="n">st</span><span class="o">.</span><span class="n">integers</span></a><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <a class="sphinx-codeautolink-a" href="https://docs.python.org/3/library/functions.html#len" title="len"><span class="nb">len</span></a><span class="p">(</span><span class="n">string</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">))</span>
+    <span class="k">assert</span> <span class="n">string</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="ow">in</span> <span class="n">string</span>
+</pre></div>
+</div>
+</section>
+<section id="combining-hypothesis-with-pytest">
+<h2>Combining Hypothesis with pytest<a class="headerlink" href="#combining-hypothesis-with-pytest" title="Link to this heading">¶</a></h2>
+<p>Hypothesis works with pytest features, like <a class="reference external" href="https://docs.pytest.org/en/stable/reference/reference.html#pytest-mark-parametrize-ref" title="(in pytest v9.0.3)"><span class="xref std std-ref">pytest.mark.parametrize</span></a>:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <a class="sphinx-codeautolink-a" href="https://docs.pytest.org/en/stable/index.html#module-pytest" title="pytest"><span class="nn">pytest</span></a>
+
+<span class="kn">from</span> <span class="nn">hypothesis</span> <span class="kn">import</span> <a class="sphinx-codeautolink-a" href="reference/api.html#hypothesis.given" title="hypothesis.given"><span class="n">given</span></a><span class="p">,</span> <span class="n">strategies</span> <span class="k">as</span> <span class="n">st</span>
+
+<span class="nd">@pytest</span><span class="o">.</span><span class="n">mark</span><span class="o">.</span><span class="n">parametrize</span><span class="p">(</span><span class="s2">"operation"</span><span class="p">,</span> <span class="p">[</span><a class="sphinx-codeautolink-a" href="https://docs.python.org/3/library/functions.html#reversed" title="reversed"><span class="nb">reversed</span></a><span class="p">,</span> <a class="sphinx-codeautolink-a" href="https://docs.python.org/3/library/functions.html#sorted" title="sorted"><span class="nb">sorted</span></a><span class="p">])</span>
+<a class="sphinx-codeautolink-a" href="reference/api.html#hypothesis.given" title="hypothesis.given"><span class="nd">@given</span></a><span class="p">(</span><a class="sphinx-codeautolink-a" href="reference/strategies.html#hypothesis.strategies.lists" title="hypothesis.strategies.lists"><span class="n">st</span><span class="o">.</span><span class="n">lists</span></a><span class="p">(</span><a class="sphinx-codeautolink-a" href="reference/strategies.html#hypothesis.strategies.integers" title="hypothesis.strategies.integers"><span class="n">st</span><span class="o">.</span><span class="n">integers</span></a><span class="p">()))</span>
+<span class="k">def</span> <span class="nf">test_list_operation_preserves_length</span><span class="p">(</span><span class="n">operation</span><span class="p">,</span> <span class="n">lst</span><span class="p">):</span>
+    <span class="k">assert</span> <a class="sphinx-codeautolink-a" href="https://docs.python.org/3/library/functions.html#len" title="len"><span class="nb">len</span></a><span class="p">(</span><span class="n">lst</span><span class="p">)</span> <span class="o">==</span> <a class="sphinx-codeautolink-a" href="https://docs.python.org/3/library/functions.html#len" title="len"><span class="nb">len</span></a><span class="p">(</span><a class="sphinx-codeautolink-a" href="https://docs.python.org/3/library/stdtypes.html#list" title="list"><span class="nb">list</span></a><span class="p">(</span><span class="n">operation</span><span class="p">(</span><span class="n">lst</span><span class="p">)))</span>
+</pre></div>
+</div>
+<p>Hypothesis also works with pytest fixtures:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <a class="sphinx-codeautolink-a" href="https://docs.pytest.org/en/stable/index.html#module-pytest" title="pytest"><span class="nn">pytest</span></a>
+
+<a class="sphinx-codeautolink-a" href="https://docs.pytest.org/en/stable/reference/reference.html#pytest.fixture" title="pytest.fixture"><span class="nd">@pytest</span><span class="o">.</span><span class="n">fixture</span></a><span class="p">(</span><span class="n">scope</span><span class="o">=</span><span class="s2">"session"</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">shared_mapping</span><span class="p">():</span>
+    <span class="k">return</span> <span class="p">{</span><span class="n">n</span><span class="p">:</span> <span class="mi">0</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <a class="sphinx-codeautolink-a" href="https://docs.python.org/3/library/stdtypes.html#range" title="range"><span class="nb">range</span></a><span class="p">(</span><span class="mi">101</span><span class="p">)}</span>
+
+<a class="sphinx-codeautolink-a" href="reference/api.html#hypothesis.given" title="hypothesis.given"><span class="nd">@given</span></a><span class="p">(</span><a class="sphinx-codeautolink-a" href="reference/strategies.html#hypothesis.strategies.integers" title="hypothesis.strategies.integers"><span class="n">st</span><span class="o">.</span><span class="n">integers</span></a><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">100</span><span class="p">))</span>
+<span class="k">def</span> <span class="nf">test_shared_mapping_keys</span><span class="p">(</span><span class="n">shared_mapping</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
+    <span class="k">assert</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">shared_mapping</span>
+</pre></div>
+</div>
+</section>
+</section>
+</article>
+</div>
+<footer>
+<div class="related-pages">
+<a class="next-page" href="tutorial/index.html">
+<div class="page-info">
+<div class="context">
+<span>Next</span>
+</div>
+<div class="title">Tutorial</div>
+</div>
+<svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+</a>
+<a class="prev-page" href="index.html">
+<svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+<div class="page-info">
+<div class="context">
+<span>Previous</span>
+</div>
+<div class="title">Home</div>
+</div>
+</a>
+</div>
+<div class="bottom-of-page">
+<div class="left-details">
+<div class="copyright">
+                Copyright © 2013-2026, the Hypothesis team
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+</div>
+<div class="right-details">
+</div>
+</div>
+</footer>
+</div>
+<aside class="toc-drawer">
+<div class="toc-sticky toc-scroll">
+<div class="toc-title-container">
+<span class="toc-title">
+            On this page
+          </span>
+</div>
+<div class="toc-tree-container">
+<div class="toc-tree">
+<ul>
+<li><a class="reference internal" href="#">Quickstart</a><ul>
+<li><a class="reference internal" href="#install-hypothesis">Install Hypothesis</a></li>
+<li><a class="reference internal" href="#write-your-first-test">Write your first test</a></li>
+<li><a class="reference internal" href="#running-in-a-test-suite">Running in a test suite</a></li>
+<li><a class="reference internal" href="#arguments-to-given">Arguments to <code class="xref py py-func docutils literal notranslate"><span class="pre">@given</span></code></a></li>
+<li><a class="reference internal" href="#filtering-inside-a-test">Filtering inside a test</a></li>
+<li><a class="reference internal" href="#dependent-generation">Dependent generation</a></li>
+<li><a class="reference internal" href="#combining-hypothesis-with-pytest">Combining Hypothesis with pytest</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</aside>
+</div>
+</div><script src="_static/documentation_options.js?v=b7a85b18"></script>
+<script src="_static/doctools.js?v=fd6eb6e6"></script>
+<script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+<script src="_static/scripts/furo.js?v=46bd48cc"></script>
+</body>
+</html>

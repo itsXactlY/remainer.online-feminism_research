@@ -1,0 +1,303 @@
+Web API Design Best Practices - Azure Architecture Center | Microsoft Learn
+Table of contents
+Exit editor mode
+Ask Learn
+Ask Learn
+Reading mode
+Table of contents
+Read in English
+Add
+Add to plan
+Edit
+Share via
+Facebook
+x.com
+LinkedIn
+Email
+Copy Markdown
+Print
+Note
+Access to this page requires authorization. You can try
+signing in
+or
+changing directories
+.
+Access to this page requires authorization. You can try
+changing directories
+.
+Best practices for RESTful web API design
+Feedback
+Summarize this article for me
+A RESTful web API implementation is a web API that employs Representational State Transfer (REST) architectural principles to achieve a stateless, loosely coupled interface between a client and service. A web API that is RESTful supports the standard HTTP protocol to perform operations on resources and return representations of resources that contain hypermedia links and HTTP operation status codes.
+A RESTful web API should align with the following principles:
+Platform independence
+, which means that clients can call the web API regardless of the internal implementation. To achieve platform independence, the web API uses HTTP as a standard protocol, provides clear documentation, and supports a familiar data exchange format such as JSON or XML.
+Loose coupling
+, which means that the client and the web service can evolve independently. The client doesn't need to know the internal implementation of the web service, and the web service doesn't need to know the internal implementation of the client. To achieve loose coupling in a RESTful web API, use only standard protocols and implement a mechanism that allows the client and the web service to agree on the format of the data to exchange.
+This article describes best practices for designing RESTful web APIs. It also covers common design patterns and considerations for building web APIs that are easy to understand, flexible, and maintainable.
+RESTful web API design concepts
+To implement a RESTful web API, you need to understand the following concepts.
+Uniform Resource Identifier (URI):
+REST APIs are designed around resources, which are any kind of object, data, or service that the client can access. Each resource is represented by a URI that uniquely identifies that resource. For example, the URI for a particular customer order might be:
+https://api.contoso.com/orders/1
+Resource representation
+defines how a resource that's identified by its URI is encoded and transported over the HTTP protocol in a specific format, such as XML or JSON. Clients that want to retrieve a specific resource must use the resource's URI in the request to the API. The API returns a resource representation of the data that the URI indicates. For example, a client can make a GET request to the URI identifier
+https://api.contoso.com/orders/1
+to receive the following JSON body:
+{"orderId":1,"orderValue":99.9,"productId":1,"quantity":1}
+Uniform interface
+is how RESTful APIs achieve loose coupling between client and service implementations. For REST APIs that are built on HTTP, the uniform interface includes using standard HTTP verbs to perform operations like
+GET
+,
+POST
+,
+PUT
+,
+PATCH
+, and
+DELETE
+on resources.
+Stateless request model:
+RESTful APIs use a stateless request model, which means that HTTP requests are independent and might occur in any order. For this reason, keeping transient state information between requests isn't feasible. The only place where information is stored is in the resources themselves, and each request should be an atomic operation. A stateless request model supports high scalability because it doesn't need to retain any affinity between clients and specific servers. However, the stateless model can also limit scalability because of challenges with web service back-end storage scalability. For more information about strategies to scale out a data store, see
+Data partitioning
+.
+Hypermedia links:
+REST APIs can be driven by hypermedia links that are contained in each resource representation. For example, the following code block shows a JSON representation of an order. It contains links to get or update the customer that's associated with the order.
+{
+  "orderID":3,
+  "productID":2,
+  "quantity":4,
+  "orderValue":16.60,
+  "links": [
+    {"rel":"product","href":"https://api.contoso.com/customers/3", "action":"GET" },
+    {"rel":"product","href":"https://api.contoso.com/customers/3", "action":"PUT" }
+  ]
+}
+Define RESTful web API resource URIs
+A RESTful web API is organized around resources. To organize your API design around resources, define resource URIs that map to the business entities. When possible, base resource URIs on nouns (the resource) and not verbs (the operations on the resource).
+For example, in an e-commerce system, the primary business entities might be customers and orders. To create an order, a client sends the order information in an HTTP POST request to the resource URI. The HTTP response to the request indicates whether the order creation is successful.
+The URI for creating the order resource might be something like:
+https://api.contoso.com/orders // Good
+Avoid using verbs in URIs to represent operations. For example, the following URI isn't recommended:
+https://api.contoso.com/create-order // Avoid
+Entities are often grouped together into collections like customers or orders. A collection is a separate resource from the items inside the collection, so it should have its own URI. For example, the following URI might represent the collection of orders:
+https://api.contoso.com/orders
+After the client retrieves the collection, it can make a GET request to the URI of each item. For example, to receive information on a specific order, the client performs an HTTP GET request on the URI
+https://api.contoso.com/orders/1
+to receive the following JSON body as a resource representation of the internal order data:
+{"orderId":1,"orderValue":99.9,"productId":1,"quantity":1}
+Resource URI naming conventions
+When you design a RESTful web API, it's important that you use the correct naming and relationship conventions for resources:
+Use nouns for resource names.
+Use nouns to represent resources. For example, use
+/orders
+instead of
+/create-order
+. The HTTP GET, POST, PUT, PATCH, and DELETE methods already imply the verbal action.
+Use plural nouns to name collection URIs.
+In general, it helps to use plural nouns for URIs that reference collections. It's a good practice to organize URIs for collections and items into a hierarchy. For example,
+/customers
+is the path to the customer's collection, and
+/customers/5
+is the path to the customer with an ID that equals 5. This approach helps keep the web API intuitive. Also, many web API frameworks can route requests based on parameterized URI paths, so you can define a route for the path
+/customers/{id}
+.
+Consider the relationships between different types of resources and how you might expose these associations.
+For example, the
+/customers/5/orders
+might represent all of the orders for customer 5. You can also approach the relationship in the other direction by representing the association from an order to a customer. In this scenario, the URI might be
+/orders/99/customer
+. However, extending this model too far can become cumbersome to implement. A better approach is to include links in the body of the HTTP response message so that clients can easily access related resources.
+Use Hypertext as the Engine of Application State (HATEOAS) to enable navigation to related resources
+describes this mechanism in more detail.
+Keep relationships simple and flexible.
+In more complex systems, you might be inclined to provide URIs that allow the client to navigate through several levels of relationships, such as
+/customers/1/orders/99/products
+. However, this level of complexity can be difficult to maintain and is inflexible if the relationships between resources change in the future. Instead, try to keep URIs relatively simple. After an application has a reference to a resource, you should be able to use this reference to find items related to that resource. You can replace the preceding query with the URI
+/customers/1/orders
+to find all the orders for customer 1, and then use
+/orders/99/products
+to find the products in this order.
+Tip
+Avoid requiring resource URIs that are more complex than
+collection/item/collection
+.
+Avoid a large number of small resources.
+All web requests impose a load on the web server. The more requests, the bigger the load. Web APIs that expose a large number of small resources are known as
+chatty web APIs
+. Try to avoid these APIs because they require a client application to send multiple requests to find all of the data that it requires. Instead, consider denormalizing the data and combining related information into bigger resources that can be retrieved via a single request. However, you still need to balance this approach against the overhead of fetching data that the client doesn't need. Large object retrieval can increase the latency of a request and incur more bandwidth costs. For more information about these performance antipatterns, see
+Chatty I/O
+and
+Extraneous Fetching
+.
+Avoid creating APIs that mirror the internal structure of a database.
+The purpose of REST is to model business entities and the operations that an application can perform on those entities. A client shouldn't be exposed to the internal implementation. For example, if your data is stored in a relational database, the web API doesn't need to expose each table as a collection of resources. This approach increases the attack surface and might result in data leakage. Instead, think of the web API as an abstraction of the database. If necessary, introduce a mapping layer between the database and the web API. This layer ensures that client applications are isolated from changes to the underlying database schema.
+Tip
+It might not be possible to map every operation implemented by a web API to a specific resource. You can handle these
+nonresource
+scenarios through HTTP requests that invoke a function and return the results as an HTTP response message.
+For example, a web API that implements simple calculator operations such as add and subtract can provide URIs that expose these operations as pseudo resources and use the query string to specify the required parameters. A GET request to the URI
+/add?operand1=99&operand2=1
+returns a response message with the body containing the value 100.
+However, you should use these forms of URIs sparingly.
+Define RESTful web API methods
+RESTful web API methods align with the request methods and media types defined by the HTTP protocol. This section describes the most common request methods and the media types used in RESTful web APIs.
+HTTP request methods
+The HTTP protocol defines many request methods that indicate the action that you want to perform on a resource. The most common methods used in RESTful web APIs are
+GET
+,
+POST
+,
+PUT
+,
+PATCH
+, and
+DELETE
+. Each method corresponds to a specific operation. When you design a RESTful web API, use these methods in a way that is consistent with the protocol definition, the resource that's being accessed, and the action that's being performed.
+It's important to remember that the effect of a specific request method should depend on whether the resource is a collection or an individual item. The following table includes some conventions that most RESTful implementations use.
+Important
+The following table uses an example e-commerce
+customer
+entity. A web API doesn't need to implement all of the request methods. The methods that it implements depend on the specific scenario.
+Resource
+POST
+GET
+PUT
+DELETE
+/customers
+Create a new customer
+Retrieve all customers
+Bulk update of customers
+Remove all customers
+/customers/1
+Error
+Retrieve the details for customer 1
+Update the details of customer 1 if it exists
+Remove customer 1
+/customers/1/orders
+Create a new order for customer 1
+Retrieve all orders for customer 1
+Bulk update of orders for customer 1
+Remove all orders for customer 1
+GET requests
+A GET request retrieves a representation of the resource at the specified URI. The body of the response message contains the details of the requested resource.
+A GET request should return one of the following HTTP status codes:
+HTTP status code
+Reason
+200 (OK)
+The method has successfully returned the resource.
+204 (No Content)
+The response body doesn't contain any content, such as when a search request returns no matches in the HTTP response.
+404 (Not Found)
+The requested resource can't be found.
+POST requests
+A POST request should create a resource. The server assigns a URI for the new resource and returns that URI to the client.
+Important
+For POST requests, a client shouldn't attempt to create its own URI. The client should submit the request to the URI of the collection, and the server should assign a URI to the new resource. If a client attempts to create its own URI and issues a POST request to a specific URI, the server returns HTTP status code 400 (BAD REQUEST) to indicate that the method isn't supported.
+In a RESTful model, POST requests are used to add a new resource to the collection that the URI identifies. However, a POST request can also be used to submit data for processing to an existing resource, without the creation of any new resource.
+A POST request should return one of the following HTTP status codes:
+HTTP status code
+Reason
+200 (OK)
+The method has done some processing but doesn't create a new resource. The result of the operation might be included in the response body.
+201 (Created)
+The resource was created successfully. The URI of the new resource is included in the Location header of the response. The response body contains a representation of the resource.
+204 (No Content)
+The response body contains no content.
+400 (Bad Request)
+The client has placed invalid data in the request. The response body can contain more information about the error or a link to a URI that provides more details.
+405 (Method Not Allowed)
+The client has attempted to make a POST request to a URI that doesn't support POST requests.
+PUT request
+A PUT request should update an existing resource if it exists or, in some cases, create a new resource if it doesn't exist. To make a PUT request:
+The client specifies the URI for the resource and includes a request body that contains a complete representation of the resource.
+The client makes the request.
+If a resource that has this URI already exists, it's replaced. Otherwise, a new resource is created, if the route supports it.
+PUT methods are applied to resources that are individual items, such as a specific customer, instead of collections. A server might support updates but not creation via PUT. Whether to support creation via PUT depends on whether the client can meaningfully and reliably assign a URI to a resource before it exists. If it can't, then use POST to create resources and have the server assign the URI. Then use PUT or PATCH to update the URI.
+Important
+PUT requests must be
+idempotent
+, which means that submitting the same request multiple times always results in the same resource being modified with the same values. If a client resends a PUT request, the results should remain unchanged. In contrast, POST and PATCH requests aren't guaranteed to be idempotent.
+A PUT request should return one of the following HTTP status codes:
+HTTP status code
+Reason
+200 (OK)
+The resource was updated successfully.
+201 (Created)
+The resource was created successfully. The response body might contain a representation of the resource.
+204 (No Content)
+The resource was updated successfully, but the response body doesn't contain any content.
+409 (Conflict)
+The request couldn't be completed because of a conflict with the current state of the resource.
+Tip
+Consider implementing bulk HTTP PUT operations that can batch updates to multiple resources in a collection. The PUT request should specify the URI of the collection. The request body should specify the details of the resources to be modified. This approach can help reduce chattiness and improve performance.
+PATCH requests
+A PATCH request performs a partial update to an existing resource. The client specifies the URI for the resource. The request body specifies a set of changes to apply to the resource. This method can be more efficient than using PUT requests because the client only sends the changes and not the entire representation of the resource. PATCH can also create a new resource by specifying a set of updates to an empty or
+null
+resource if the server supports this action.
+With a PATCH request, the client sends a set of updates to an existing resource in the form of a patch document. The server processes the patch document to perform the update. The patch document specifies only a set of changes to apply instead of describing the entire resource. The specification for the PATCH method,
+RFC 5789
+, doesn't define a specific format for patch documents. The format must be inferred from the media type in the request.
+JSON is one of the most common data formats for web APIs. The two main JSON-based patch formats are JSON patch and JSON merge patch.
+JSON merge patch is simpler than JSON patch. The patch document has the same structure as the original JSON resource, but it only includes the subset of fields that should be changed or added. In addition, a field can be deleted by specifying
+null
+for the field value in the patch document. This specification means that merge patch isn't suitable if the original resource can have explicit null values.
+For example, suppose the original resource has the following JSON representation:
+{
+    "name":"gizmo",
+    "category":"widgets",
+    "color":"blue",
+    "price":10
+}
+Here's a possible JSON merge patch for this resource:
+{
+    "price":12,
+    "color":null,
+    "size":"small"
+}
+This merge patch tells the server to update
+price
+, delete
+color
+, and add
+size
+. The values for
+name
+and
+category
+aren't modified. For more information about JSON merge patch, see
+RFC 7396
+. The media type for JSON merge patch is
+application/merge-patch+json
+.
+Merge patch isn't suitable if the original resource can contain explicit null values because of the special meaning of
+null
+in the patch document. The patch document also doesn't specify the order that the server should apply the updates. Whether this order matters depends on the data and the domain. JSON patch, defined in
+RFC 6902
+, is more flexible because it specifies the changes as a sequence of operations to apply, including add, remove, replace, copy, and test to validate values. The media type for JSON patch is
+application/json-patch+json
+.
+A PATCH request should return one of the following HTTP status codes:
+HTTP status code
+Reason
+200 (OK)
+The resource was updated successfully.
+400 (Bad Request)
+Malformed patch document.
+409 (Conflict)
+The patch document is valid, but the changes can't be applied to the resource in its current state.
+415 (Unsupported Media Type)
+The patch document format isn't supported.
+DELETE requests
+A DELETE request removes the resource at the specified URI. A DELETE request should return one of the following HTTP status codes:
+HTTP status code
+Reason
+204 (NO CONTENT)
+The resource was deleted successfully. The process has been successfully handled and the response body contains no further information.
+404 (NOT FOUND)
+The resource doesn't exist.
+Resource MIME types
+Resource representation is how a resource that's identified by URI is encoded and transported over the HTTP protocol in a specific format, such as XML or JSON. Clients that want to retrieve a specific resource must use the URI in the request to the API. The API responds by returning a resource representation of the data indicated by the URI.
+In the HTTP protocol, resource representation formats are specified by using media types, also called MIME types. For nonbinary data, most web APIs support JSON (media type =
+application/json
+) and possibly XML (media 
